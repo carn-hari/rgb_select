@@ -1,6 +1,11 @@
 {
   "connections": [
     {
+      "id": "c83d7cc6-c568-46d4-9741-3445b6d22fc8",
+      "kind": "s3",
+      "name": "Amazon S3 (dev)"
+    },
+    {
       "id": "e46f96b6-e300-4bcf-94e1-643467f58a74",
       "kind": "s3",
       "name": "QA_2"
@@ -44,6 +49,24 @@
           "strokeWidth": 1.75
         },
         "target": "78be0a69-7756-4d6d-9d8f-ba1e9637992b",
+        "targetHandle": "in"
+      },
+      {
+        "animated": false,
+        "id": "xy-edge__05ee9b5d-c3c0-4a86-95da-c9f7a0757b15remaining-c3ea80c9-7fc4-4ce5-8ae2-5b5803cfd42bin",
+        "markerEnd": {
+          "color": "#2563EB",
+          "height": 16,
+          "type": "arrowclosed",
+          "width": 16
+        },
+        "source": "05ee9b5d-c3c0-4a86-95da-c9f7a0757b15",
+        "sourceHandle": "remaining",
+        "style": {
+          "stroke": "#2563EB",
+          "strokeWidth": 1.75
+        },
+        "target": "c3ea80c9-7fc4-4ce5-8ae2-5b5803cfd42b",
         "targetHandle": "in"
       }
     ],
@@ -236,8 +259,57 @@
         },
         "id": "78be0a69-7756-4d6d-9d8f-ba1e9637992b",
         "position": {
-          "x": 426.5,
-          "y": 258.25
+          "x": 523.8544973544973,
+          "y": 6.125663313285322
+        },
+        "type": "destination"
+      },
+      {
+        "data": {
+          "activityId": "write-output",
+          "config": {
+            "clustering_fields": "",
+            "collection": "",
+            "compression": "",
+            "credentialRef": "c83d7cc6-c568-46d4-9741-3445b6d22fc8",
+            "database": "",
+            "delete_flag_column": "",
+            "file_count": "",
+            "file_name": "",
+            "folder_path": "",
+            "format": "csv",
+            "glue_database": "",
+            "glue_table": "",
+            "has_header": true,
+            "id_column": "",
+            "index": "",
+            "key_columns": [],
+            "kind": "s3",
+            "load_mode": "append",
+            "partition_by": "",
+            "partition_field": "",
+            "prefix": "",
+            "project": "",
+            "retry_attempts": "",
+            "retry_backoff": "",
+            "retry_delay_seconds": "",
+            "retry_max_delay_seconds": "",
+            "retry_on": "",
+            "run_when": "",
+            "schema": "",
+            "schema_change": "keep_catalog",
+            "table": "",
+            "upsert_operation": "replace"
+          },
+          "connectionId": "c83d7cc6-c568-46d4-9741-3445b6d22fc8",
+          "kind": "s3",
+          "label": "Write Output",
+          "role": "destination"
+        },
+        "id": "c3ea80c9-7fc4-4ce5-8ae2-5b5803cfd42b",
+        "position": {
+          "x": 551.6217034556879,
+          "y": 278.4490785951968
         },
         "type": "destination"
       }

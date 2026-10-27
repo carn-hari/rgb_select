@@ -1,0 +1,252 @@
+{
+  "connections": [
+    {
+      "id": "e46f96b6-e300-4bcf-94e1-643467f58a74",
+      "kind": "s3",
+      "name": "QA_2"
+    }
+  ],
+  "format": "numen.pipeline",
+  "format_version": 1,
+  "graph": {
+    "edges": [
+      {
+        "animated": false,
+        "id": "xy-edge__acf5ef9b-e094-43b3-9f0e-f7cf09d68fddout-ee164f31-9c87-4dde-aaef-14ff720b05b3in",
+        "markerEnd": {
+          "color": "#C81414",
+          "height": 16,
+          "type": "arrowclosed",
+          "width": 16
+        },
+        "source": "acf5ef9b-e094-43b3-9f0e-f7cf09d68fdd",
+        "sourceHandle": "out",
+        "style": {
+          "stroke": "#C81414",
+          "strokeWidth": 1.75
+        },
+        "target": "ee164f31-9c87-4dde-aaef-14ff720b05b3",
+        "targetHandle": "in"
+      },
+      {
+        "animated": false,
+        "id": "xy-edge__ee164f31-9c87-4dde-aaef-14ff720b05b3out-2eea362c-44ae-45e5-8dec-e85ed5cc7590in",
+        "markerEnd": {
+          "color": "#C81414",
+          "height": 16,
+          "type": "arrowclosed",
+          "width": 16
+        },
+        "source": "ee164f31-9c87-4dde-aaef-14ff720b05b3",
+        "sourceHandle": "out",
+        "style": {
+          "stroke": "#C81414",
+          "strokeWidth": 1.75
+        },
+        "target": "2eea362c-44ae-45e5-8dec-e85ed5cc7590",
+        "targetHandle": "in"
+      }
+    ],
+    "nodes": [
+      {
+        "data": {
+          "activityId": "read-dataset",
+          "config": {
+            "add_record_timestamp": false,
+            "after_success": "none",
+            "archive_path": "",
+            "assign": "",
+            "attributes": "",
+            "bulk_threshold": 50000,
+            "catalog": "",
+            "catalog_database": "",
+            "catalog_table": "",
+            "checkpoint": "",
+            "classification": "json",
+            "collection": "",
+            "column_types": [],
+            "compression": "auto",
+            "content_hash": false,
+            "credentialRef": "e46f96b6-e300-4bcf-94e1-643467f58a74",
+            "database": "",
+            "delimiter": "",
+            "done_marker": "",
+            "ending_offsets": "",
+            "escape_char": "",
+            "exclusions": "",
+            "expected_columns": "",
+            "fields": "",
+            "file_pattern": "",
+            "filter_predicate": "",
+            "folder_path": "",
+            "format": "xlsx",
+            "group_id": "",
+            "has_header": true,
+            "headers": [],
+            "include_deleted": true,
+            "include_headers": false,
+            "include_metadata": false,
+            "include_source_metadata": false,
+            "incremental_mode": "new_files",
+            "index": "",
+            "initial_value": "",
+            "json_path": "",
+            "kind": "s3",
+            "limit": "",
+            "lookback_seconds": "",
+            "lower_bound": "",
+            "max_records": "",
+            "method": "GET",
+            "min_file_age_seconds": "",
+            "min_rows": "",
+            "null_values": "",
+            "num_partitions": "",
+            "object": "",
+            "on_bad_records": "fail",
+            "on_invalid_file": "fail",
+            "parameters": [],
+            "params": [],
+            "partition_column": "",
+            "partition_predicate": "",
+            "path": "",
+            "pipeline": "",
+            "prefix": "resume/Join_Test_Suite.xlsx",
+            "project": "",
+            "quarantine_path": "",
+            "query": "",
+            "query_dsl": "",
+            "quote_char": "quote",
+            "read_method": "scan",
+            "read_mode": "auto",
+            "records_path": "",
+            "recurse": true,
+            "remote_path": "",
+            "retry_attempts": "",
+            "retry_backoff": "",
+            "retry_delay_seconds": "",
+            "retry_max_delay_seconds": "",
+            "retry_on": "",
+            "run_when": "",
+            "schema": "",
+            "segments": "",
+            "separator": "comma",
+            "sheet": "Left_Data",
+            "size_stable_seconds": "",
+            "skip_first": false,
+            "skip_footer": "",
+            "snapshot_id": "",
+            "starting_offsets": "",
+            "starting_position": "trim_horizon",
+            "starting_timestamp": "",
+            "stream_arn": "",
+            "stream_name": "",
+            "subscribe_pattern": "",
+            "sync_mode": "full",
+            "table": "",
+            "timeout_seconds": 30,
+            "topic": "",
+            "upper_bound": "",
+            "version": "",
+            "watermark_column": "",
+            "watermark_field": "SystemModstamp",
+            "watermark_type": "timestamp",
+            "where": "",
+            "workgroup": ""
+          },
+          "connectionId": "e46f96b6-e300-4bcf-94e1-643467f58a74",
+          "kind": "s3",
+          "label": "Read Dataset",
+          "role": "source"
+        },
+        "id": "acf5ef9b-e094-43b3-9f0e-f7cf09d68fdd",
+        "position": {
+          "x": 54,
+          "y": 74
+        },
+        "type": "source"
+      },
+      {
+        "data": {
+          "activityId": "filter",
+          "config": {
+            "condition": "CustomerID > 100",
+            "negate": false,
+            "retry_attempts": "",
+            "retry_backoff": "",
+            "retry_delay_seconds": "",
+            "retry_max_delay_seconds": "",
+            "retry_on": "",
+            "run_when": ""
+          },
+          "connectionId": null,
+          "kind": "filter",
+          "label": "Filter",
+          "role": "transform"
+        },
+        "id": "ee164f31-9c87-4dde-aaef-14ff720b05b3",
+        "position": {
+          "x": 344.1851851851852,
+          "y": 183.81481481481478
+        },
+        "type": "transform"
+      },
+      {
+        "data": {
+          "activityId": "write-output",
+          "config": {
+            "clustering_fields": "",
+            "collection": "",
+            "compression": "",
+            "credentialRef": "e46f96b6-e300-4bcf-94e1-643467f58a74",
+            "database": "",
+            "delete_flag_column": "",
+            "file_count": "",
+            "file_name": "",
+            "folder_path": "",
+            "format": "csv",
+            "glue_database": "",
+            "glue_table": "",
+            "has_header": true,
+            "id_column": "",
+            "index": "",
+            "key_columns": [],
+            "kind": "s3",
+            "load_mode": "append",
+            "partition_by": "",
+            "partition_field": "",
+            "prefix": "QA",
+            "project": "",
+            "retry_attempts": "",
+            "retry_backoff": "",
+            "retry_delay_seconds": "",
+            "retry_max_delay_seconds": "",
+            "retry_on": "",
+            "run_when": "",
+            "schema": "",
+            "schema_change": "keep_catalog",
+            "table": "",
+            "upsert_operation": "replace"
+          },
+          "connectionId": "e46f96b6-e300-4bcf-94e1-643467f58a74",
+          "kind": "s3",
+          "label": "Write Output",
+          "role": "destination"
+        },
+        "id": "2eea362c-44ae-45e5-8dec-e85ed5cc7590",
+        "position": {
+          "x": 607.5925925925926,
+          "y": -30.574074074074062
+        },
+        "type": "destination"
+      }
+    ],
+    "version": 1
+  },
+  "pipeline": {
+    "description": null,
+    "id": "f8feeeab-6cca-4bd7-bc7b-76c54982c8f4",
+    "name": "edwx",
+    "options": {}
+  },
+  "schedules": []
+}

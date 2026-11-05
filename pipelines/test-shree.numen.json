@@ -1,0 +1,311 @@
+{
+  "connections": [
+    {
+      "id": "2ba6a2a5-cff3-4192-a5f2-88d32c688a49",
+      "kind": "s3",
+      "name": "S3-Connection-01"
+    },
+    {
+      "id": "6b93d97b-a706-4141-8abe-ef84de7dd767",
+      "kind": "postgres",
+      "name": "PostgreSQL DB"
+    }
+  ],
+  "format": "numen.pipeline",
+  "format_version": 1,
+  "graph": {
+    "edges": [
+      {
+        "animated": false,
+        "id": "xy-edge__4db7ce4e-8aa4-48df-b6f8-26c532803da4out-bc16cb0d-8781-4ee6-9b27-dfadb76e44fbin",
+        "markerEnd": {
+          "color": "#2563EB",
+          "height": 16,
+          "type": "arrowclosed",
+          "width": 16
+        },
+        "source": "4db7ce4e-8aa4-48df-b6f8-26c532803da4",
+        "sourceHandle": "out",
+        "style": {
+          "stroke": "#2563EB",
+          "strokeWidth": 1.75
+        },
+        "target": "bc16cb0d-8781-4ee6-9b27-dfadb76e44fb",
+        "targetHandle": "in"
+      },
+      {
+        "animated": false,
+        "id": "xy-edge__bc16cb0d-8781-4ee6-9b27-dfadb76e44fbout-70d5895a-a6a9-41b8-a3df-178186cb0f97in",
+        "markerEnd": {
+          "color": "#2563EB",
+          "height": 16,
+          "type": "arrowclosed",
+          "width": 16
+        },
+        "source": "bc16cb0d-8781-4ee6-9b27-dfadb76e44fb",
+        "sourceHandle": "out",
+        "style": {
+          "stroke": "#2563EB",
+          "strokeWidth": 1.75
+        },
+        "target": "70d5895a-a6a9-41b8-a3df-178186cb0f97",
+        "targetHandle": "in"
+      },
+      {
+        "animated": false,
+        "id": "xy-edge__70d5895a-a6a9-41b8-a3df-178186cb0f97out-242a1669-ac90-4e96-bfae-d7dd5ba151bbin",
+        "markerEnd": {
+          "color": "#2563EB",
+          "height": 16,
+          "type": "arrowclosed",
+          "width": 16
+        },
+        "source": "70d5895a-a6a9-41b8-a3df-178186cb0f97",
+        "sourceHandle": "out",
+        "style": {
+          "stroke": "#2563EB",
+          "strokeWidth": 1.75
+        },
+        "target": "242a1669-ac90-4e96-bfae-d7dd5ba151bb",
+        "targetHandle": "in"
+      }
+    ],
+    "nodes": [
+      {
+        "data": {
+          "activityId": "read-dataset",
+          "config": {
+            "add_record_timestamp": false,
+            "after_success": "none",
+            "archive_path": "",
+            "assign": "",
+            "attributes": "",
+            "bulk_threshold": 50000,
+            "catalog": "",
+            "catalog_database": "",
+            "catalog_table": "",
+            "checkpoint": "",
+            "classification": "json",
+            "collection": "",
+            "column_types": [],
+            "compression": "auto",
+            "content_hash": false,
+            "credentialRef": "2ba6a2a5-cff3-4192-a5f2-88d32c688a49",
+            "database": "",
+            "delimiter": "",
+            "done_marker": "",
+            "ending_offsets": "",
+            "escape_char": "",
+            "exclusions": "",
+            "expected_columns": "",
+            "fields": "",
+            "file_pattern": "",
+            "filter_predicate": "",
+            "folder_path": "",
+            "format": "csv",
+            "group_id": "",
+            "has_header": true,
+            "headers": [],
+            "include_deleted": true,
+            "include_headers": false,
+            "include_metadata": false,
+            "include_source_metadata": false,
+            "incremental_mode": "new_files",
+            "index": "",
+            "initial_value": "",
+            "json_path": "",
+            "kind": "s3",
+            "limit": "",
+            "lookback_seconds": "",
+            "lower_bound": "",
+            "max_records": "",
+            "method": "GET",
+            "min_file_age_seconds": "",
+            "min_rows": "",
+            "null_values": "",
+            "num_partitions": "",
+            "object": "",
+            "on_bad_records": "fail",
+            "on_invalid_file": "fail",
+            "parameters": [],
+            "params": [],
+            "partition_column": "",
+            "partition_predicate": "",
+            "path": "",
+            "pipeline": "",
+            "prefix": "salesdata.csv",
+            "project": "",
+            "quarantine_path": "",
+            "query": "",
+            "query_dsl": "",
+            "quote_char": "quote",
+            "read_method": "scan",
+            "read_mode": "auto",
+            "records_path": "",
+            "recurse": true,
+            "remote_path": "",
+            "retry_attempts": "",
+            "retry_backoff": "",
+            "retry_delay_seconds": "",
+            "retry_max_delay_seconds": "",
+            "retry_on": "",
+            "run_when": "",
+            "schema": "",
+            "segments": "",
+            "separator": "comma",
+            "sheet": "",
+            "size_stable_seconds": "",
+            "skip_first": false,
+            "skip_footer": "",
+            "snapshot_id": "",
+            "starting_offsets": "",
+            "starting_position": "trim_horizon",
+            "starting_timestamp": "",
+            "stream_arn": "",
+            "stream_name": "",
+            "subscribe_pattern": "",
+            "sync_mode": "full",
+            "table": "",
+            "timeout_seconds": 30,
+            "topic": "",
+            "upper_bound": "",
+            "version": "",
+            "watermark_column": "",
+            "watermark_field": "SystemModstamp",
+            "watermark_type": "timestamp",
+            "where": "",
+            "workgroup": ""
+          },
+          "connectionId": "2ba6a2a5-cff3-4192-a5f2-88d32c688a49",
+          "kind": "s3",
+          "label": "Real sales data",
+          "role": "source"
+        },
+        "id": "4db7ce4e-8aa4-48df-b6f8-26c532803da4",
+        "position": {
+          "x": -70.46231450640109,
+          "y": 109.5559966914168
+        },
+        "type": "source"
+      },
+      {
+        "data": {
+          "activityId": "select",
+          "config": {
+            "columns": [
+              "Region",
+              "Country",
+              "Sales Channel",
+              "Order ID"
+            ],
+            "ignore_missing": false,
+            "retry_attempts": "",
+            "retry_backoff": "",
+            "retry_delay_seconds": "",
+            "retry_max_delay_seconds": "",
+            "retry_on": "",
+            "run_when": ""
+          },
+          "connectionId": null,
+          "kind": "select",
+          "label": "Select",
+          "role": "transform"
+        },
+        "id": "bc16cb0d-8781-4ee6-9b27-dfadb76e44fb",
+        "position": {
+          "x": 198.91590792821836,
+          "y": 14.259473393448147
+        },
+        "type": "transform"
+      },
+      {
+        "data": {
+          "activityId": "distinct",
+          "config": {
+            "descending": true,
+            "flag_column": "",
+            "ignore_case": true,
+            "keep": "first",
+            "order_by": [],
+            "retry_attempts": "",
+            "retry_backoff": "",
+            "retry_delay_seconds": "",
+            "retry_max_delay_seconds": "",
+            "retry_on": "",
+            "run_when": "",
+            "subset": [
+              "Region"
+            ]
+          },
+          "connectionId": null,
+          "kind": "dedupe",
+          "label": "Remove Duplicates",
+          "role": "transform"
+        },
+        "id": "70d5895a-a6a9-41b8-a3df-178186cb0f97",
+        "position": {
+          "x": 494.7577545800822,
+          "y": 93.69653040237367
+        },
+        "type": "transform"
+      },
+      {
+        "data": {
+          "activityId": "write-output",
+          "config": {
+            "clustering_fields": "",
+            "collection": "",
+            "compression": "",
+            "credentialRef": "6b93d97b-a706-4141-8abe-ef84de7dd767",
+            "database": "",
+            "delete_flag_column": "",
+            "file_count": "",
+            "file_name": "",
+            "folder_path": "",
+            "format": "csv",
+            "glue_database": "",
+            "glue_table": "",
+            "has_header": true,
+            "id_column": "",
+            "index": "",
+            "key_columns": [],
+            "kind": "postgres",
+            "load_mode": "append",
+            "partition_by": "",
+            "partition_field": "",
+            "prefix": "",
+            "project": "",
+            "retry_attempts": "",
+            "retry_backoff": "",
+            "retry_delay_seconds": "",
+            "retry_max_delay_seconds": "",
+            "retry_on": "",
+            "run_when": "",
+            "schema": "",
+            "schema_change": "keep_catalog",
+            "table": "salesdata1",
+            "upsert_operation": "replace"
+          },
+          "connectionId": "6b93d97b-a706-4141-8abe-ef84de7dd767",
+          "kind": "postgres",
+          "label": "Write Output",
+          "role": "destination"
+        },
+        "id": "242a1669-ac90-4e96-bfae-d7dd5ba151bb",
+        "position": {
+          "x": 778.896073475231,
+          "y": -0.5785377879607623
+        },
+        "type": "destination"
+      }
+    ],
+    "version": 1
+  },
+  "pipeline": {
+    "description": null,
+    "id": "ee71adaa-31fa-4228-88f1-999cc740d9ba",
+    "name": "test shree",
+    "options": {}
+  },
+  "schedules": []
+}

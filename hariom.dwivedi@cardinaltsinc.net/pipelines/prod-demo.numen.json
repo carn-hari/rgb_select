@@ -1,0 +1,258 @@
+{
+  "connections": [
+    {
+      "id": "e63d4f1a-4126-4e52-97c5-42e81f199ca0",
+      "kind": "s3",
+      "name": "S3 Bucket"
+    }
+  ],
+  "format": "numen.pipeline",
+  "format_version": 1,
+  "graph": {
+    "edges": [
+      {
+        "animated": false,
+        "id": "xy-edge__315628d2-d7f2-4e82-82b8-44f2b1ebde25out-9f38bb7d-96ad-4576-a497-7dc4263ef96din",
+        "markerEnd": {
+          "color": "#C81414",
+          "height": 16,
+          "type": "arrowclosed",
+          "width": 16
+        },
+        "source": "315628d2-d7f2-4e82-82b8-44f2b1ebde25",
+        "sourceHandle": "out",
+        "style": {
+          "stroke": "#C81414",
+          "strokeWidth": 1.75
+        },
+        "target": "9f38bb7d-96ad-4576-a497-7dc4263ef96d",
+        "targetHandle": "in"
+      },
+      {
+        "animated": false,
+        "id": "xy-edge__9f38bb7d-96ad-4576-a497-7dc4263ef96dout-87b2f4df-054b-4513-b8f8-837e2356bdd0in",
+        "markerEnd": {
+          "color": "#C81414",
+          "height": 16,
+          "type": "arrowclosed",
+          "width": 16
+        },
+        "source": "9f38bb7d-96ad-4576-a497-7dc4263ef96d",
+        "sourceHandle": "out",
+        "style": {
+          "stroke": "#C81414",
+          "strokeWidth": 1.75
+        },
+        "target": "87b2f4df-054b-4513-b8f8-837e2356bdd0",
+        "targetHandle": "in"
+      }
+    ],
+    "nodes": [
+      {
+        "data": {
+          "activityId": "read-dataset",
+          "config": {
+            "add_record_timestamp": false,
+            "after_success": "none",
+            "archive_path": "",
+            "assign": "",
+            "attributes": "",
+            "bulk_threshold": 50000,
+            "catalog": "",
+            "catalog_database": "",
+            "catalog_table": "",
+            "checkpoint": "",
+            "classification": "json",
+            "collection": "",
+            "column_types": [],
+            "compression": "auto",
+            "content_hash": false,
+            "credentialRef": "e63d4f1a-4126-4e52-97c5-42e81f199ca0",
+            "database": "",
+            "delimiter": "",
+            "done_marker": "",
+            "ending_offsets": "",
+            "escape_char": "",
+            "exclusions": "",
+            "expected_columns": "",
+            "fields": "",
+            "file_pattern": "",
+            "filter_predicate": "",
+            "folder_path": "",
+            "format": "csv",
+            "group_id": "",
+            "has_header": true,
+            "headers": [],
+            "include_deleted": true,
+            "include_headers": false,
+            "include_metadata": false,
+            "include_source_metadata": false,
+            "incremental_mode": "new_files",
+            "index": "",
+            "initial_value": "",
+            "json_path": "",
+            "kind": "s3",
+            "limit": "",
+            "lookback_seconds": "",
+            "lower_bound": "",
+            "max_records": "",
+            "method": "GET",
+            "min_file_age_seconds": "",
+            "min_rows": "",
+            "null_values": "",
+            "num_partitions": "",
+            "object": "",
+            "on_bad_records": "fail",
+            "on_invalid_file": "fail",
+            "parameters": [],
+            "params": [],
+            "partition_column": "",
+            "partition_predicate": "",
+            "path": "",
+            "pipeline": "",
+            "prefix": "salesdata.csv",
+            "project": "",
+            "quarantine_path": "",
+            "query": "",
+            "query_dsl": "",
+            "quote_char": "quote",
+            "read_method": "scan",
+            "read_mode": "auto",
+            "records_path": "",
+            "recurse": true,
+            "remote_path": "",
+            "retry_attempts": "",
+            "retry_backoff": "",
+            "retry_delay_seconds": "",
+            "retry_max_delay_seconds": "",
+            "retry_on": "",
+            "run_when": "",
+            "schema": "",
+            "segments": "",
+            "separator": "comma",
+            "sheet": "",
+            "size_stable_seconds": "",
+            "skip_first": false,
+            "skip_footer": "",
+            "snapshot_id": "",
+            "starting_offsets": "",
+            "starting_position": "trim_horizon",
+            "starting_timestamp": "",
+            "stream_arn": "",
+            "stream_name": "",
+            "subscribe_pattern": "",
+            "sync_mode": "full",
+            "table": "",
+            "timeout_seconds": 30,
+            "topic": "",
+            "upper_bound": "",
+            "version": "",
+            "watermark_column": "",
+            "watermark_field": "SystemModstamp",
+            "watermark_type": "timestamp",
+            "where": "",
+            "workgroup": ""
+          },
+          "connectionId": "e63d4f1a-4126-4e52-97c5-42e81f199ca0",
+          "kind": "s3",
+          "label": "Read Dataset",
+          "role": "source"
+        },
+        "id": "315628d2-d7f2-4e82-82b8-44f2b1ebde25",
+        "position": {
+          "x": 56,
+          "y": 173.9375
+        },
+        "type": "source"
+      },
+      {
+        "data": {
+          "activityId": "distinct",
+          "config": {
+            "descending": true,
+            "flag_column": "",
+            "ignore_case": true,
+            "keep": "first",
+            "order_by": [],
+            "retry_attempts": "",
+            "retry_backoff": "",
+            "retry_delay_seconds": "",
+            "retry_max_delay_seconds": "",
+            "retry_on": "",
+            "run_when": "",
+            "subset": [
+              "Country"
+            ]
+          },
+          "connectionId": null,
+          "kind": "dedupe",
+          "label": "Remove Duplicates",
+          "role": "transform"
+        },
+        "id": "9f38bb7d-96ad-4576-a497-7dc4263ef96d",
+        "position": {
+          "x": 373,
+          "y": 179.90625
+        },
+        "type": "transform"
+      },
+      {
+        "data": {
+          "activityId": "write-output",
+          "config": {
+            "clustering_fields": "",
+            "collection": "",
+            "compression": "",
+            "credentialRef": "e63d4f1a-4126-4e52-97c5-42e81f199ca0",
+            "database": "",
+            "delete_flag_column": "",
+            "file_count": "",
+            "file_name": "demoduplicate",
+            "folder_path": "",
+            "format": "csv",
+            "glue_database": "",
+            "glue_table": "",
+            "has_header": true,
+            "id_column": "",
+            "index": "",
+            "key_columns": [],
+            "kind": "s3",
+            "load_mode": "append",
+            "partition_by": "",
+            "partition_field": "",
+            "prefix": "",
+            "project": "",
+            "retry_attempts": "",
+            "retry_backoff": "",
+            "retry_delay_seconds": "",
+            "retry_max_delay_seconds": "",
+            "retry_on": "",
+            "run_when": "",
+            "schema": "",
+            "schema_change": "keep_catalog",
+            "table": "",
+            "upsert_operation": "replace"
+          },
+          "connectionId": "e63d4f1a-4126-4e52-97c5-42e81f199ca0",
+          "kind": "s3",
+          "label": "Write Output",
+          "role": "destination"
+        },
+        "id": "87b2f4df-054b-4513-b8f8-837e2356bdd0",
+        "position": {
+          "x": 731.1482661149728,
+          "y": 162.10374112554285
+        },
+        "type": "destination"
+      }
+    ],
+    "version": 1
+  },
+  "pipeline": {
+    "description": null,
+    "id": "44a12616-26b7-4f41-8d9b-50c8e60e772f",
+    "name": "prod demo",
+    "options": {}
+  },
+  "schedules": []
+}

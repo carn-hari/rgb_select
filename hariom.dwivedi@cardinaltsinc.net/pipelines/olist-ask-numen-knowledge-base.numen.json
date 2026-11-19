@@ -1,0 +1,2655 @@
+{
+  "connections": [
+    {
+      "id": "e63d4f1a-4126-4e52-97c5-42e81f199ca0",
+      "kind": "s3",
+      "name": "S3 Bucket"
+    }
+  ],
+  "format": "numen.pipeline",
+  "format_version": 1,
+  "graph": {
+    "edges": [
+      {
+        "animated": false,
+        "id": "xy-edge__5e11c86c-ce28-540c-b25b-da2731aa862fdone-096bfce9-111f-5b16-8ef8-061d2e66c51fin",
+        "source": "5e11c86c-ce28-540c-b25b-da2731aa862f",
+        "sourceHandle": "done",
+        "target": "096bfce9-111f-5b16-8ef8-061d2e66c51f",
+        "targetHandle": "in"
+      },
+      {
+        "animated": false,
+        "id": "xy-edge__ae7999d8-28b7-533e-9f0f-77c5b96d1391done-6ee24864-ad9c-55a1-a78d-5ae68081bcc1in",
+        "source": "ae7999d8-28b7-533e-9f0f-77c5b96d1391",
+        "sourceHandle": "done",
+        "target": "6ee24864-ad9c-55a1-a78d-5ae68081bcc1",
+        "targetHandle": "in"
+      },
+      {
+        "animated": false,
+        "id": "xy-edge__7abaaf3f-892e-5e1e-a05a-04a8d04ed61cout-936cf7ef-94fb-500a-9120-679de6a98b1cin",
+        "source": "7abaaf3f-892e-5e1e-a05a-04a8d04ed61c",
+        "sourceHandle": "out",
+        "target": "936cf7ef-94fb-500a-9120-679de6a98b1c",
+        "targetHandle": "in"
+      },
+      {
+        "animated": false,
+        "id": "xy-edge__936cf7ef-94fb-500a-9120-679de6a98b1cout-7ca225a8-6b97-5e09-9fcd-77e0f48d916fin",
+        "source": "936cf7ef-94fb-500a-9120-679de6a98b1c",
+        "sourceHandle": "out",
+        "target": "7ca225a8-6b97-5e09-9fcd-77e0f48d916f",
+        "targetHandle": "in"
+      },
+      {
+        "animated": false,
+        "id": "xy-edge__7ca225a8-6b97-5e09-9fcd-77e0f48d916fout-ae7999d8-28b7-533e-9f0f-77c5b96d1391in",
+        "source": "7ca225a8-6b97-5e09-9fcd-77e0f48d916f",
+        "sourceHandle": "out",
+        "target": "ae7999d8-28b7-533e-9f0f-77c5b96d1391",
+        "targetHandle": "in"
+      },
+      {
+        "animated": false,
+        "id": "xy-edge__b855cb43-bfc9-51ab-9e45-a56081dd5df9done-a169806c-58bf-53ba-831d-1b5236700d74in",
+        "source": "b855cb43-bfc9-51ab-9e45-a56081dd5df9",
+        "sourceHandle": "done",
+        "target": "a169806c-58bf-53ba-831d-1b5236700d74",
+        "targetHandle": "in"
+      },
+      {
+        "animated": false,
+        "id": "xy-edge__cd7ce050-6702-5afd-9021-c8df76456485out-1688aa99-cac5-517c-bbf2-871a1e3b814bin",
+        "source": "cd7ce050-6702-5afd-9021-c8df76456485",
+        "sourceHandle": "out",
+        "target": "1688aa99-cac5-517c-bbf2-871a1e3b814b",
+        "targetHandle": "in"
+      },
+      {
+        "animated": false,
+        "id": "xy-edge__1688aa99-cac5-517c-bbf2-871a1e3b814bout-a194ede8-81fa-51e1-8350-8beeec3f6c9bin",
+        "source": "1688aa99-cac5-517c-bbf2-871a1e3b814b",
+        "sourceHandle": "out",
+        "target": "a194ede8-81fa-51e1-8350-8beeec3f6c9b",
+        "targetHandle": "in"
+      },
+      {
+        "animated": false,
+        "id": "xy-edge__a194ede8-81fa-51e1-8350-8beeec3f6c9bout-b855cb43-bfc9-51ab-9e45-a56081dd5df9in",
+        "source": "a194ede8-81fa-51e1-8350-8beeec3f6c9b",
+        "sourceHandle": "out",
+        "target": "b855cb43-bfc9-51ab-9e45-a56081dd5df9",
+        "targetHandle": "in"
+      },
+      {
+        "animated": false,
+        "id": "xy-edge__42f4595a-fe41-515e-8c10-ed0beabb41a1done-af7037fd-f2ac-5574-a8d0-5078d5488130in",
+        "source": "42f4595a-fe41-515e-8c10-ed0beabb41a1",
+        "sourceHandle": "done",
+        "target": "af7037fd-f2ac-5574-a8d0-5078d5488130",
+        "targetHandle": "in"
+      },
+      {
+        "animated": false,
+        "id": "xy-edge__4cbc50ab-c8b0-5c2e-a48b-852bbe83b884out-5a51a90e-af0e-5ab6-b0ba-83252f3d3a42in",
+        "source": "4cbc50ab-c8b0-5c2e-a48b-852bbe83b884",
+        "sourceHandle": "out",
+        "target": "5a51a90e-af0e-5ab6-b0ba-83252f3d3a42",
+        "targetHandle": "in"
+      },
+      {
+        "animated": false,
+        "id": "xy-edge__5a51a90e-af0e-5ab6-b0ba-83252f3d3a42out-9a85af0c-8a21-53a5-b9dc-8c3a91e15f28in",
+        "source": "5a51a90e-af0e-5ab6-b0ba-83252f3d3a42",
+        "sourceHandle": "out",
+        "target": "9a85af0c-8a21-53a5-b9dc-8c3a91e15f28",
+        "targetHandle": "in"
+      },
+      {
+        "animated": false,
+        "id": "xy-edge__9a85af0c-8a21-53a5-b9dc-8c3a91e15f28out-42f4595a-fe41-515e-8c10-ed0beabb41a1in",
+        "source": "9a85af0c-8a21-53a5-b9dc-8c3a91e15f28",
+        "sourceHandle": "out",
+        "target": "42f4595a-fe41-515e-8c10-ed0beabb41a1",
+        "targetHandle": "in"
+      },
+      {
+        "animated": false,
+        "id": "xy-edge__2e7eef68-de6b-5c1d-b9ee-d41f4424f995out-3cebc0a3-74c7-5802-b01f-67975e2a34eein",
+        "source": "2e7eef68-de6b-5c1d-b9ee-d41f4424f995",
+        "sourceHandle": "out",
+        "target": "3cebc0a3-74c7-5802-b01f-67975e2a34ee",
+        "targetHandle": "in"
+      },
+      {
+        "animated": false,
+        "id": "xy-edge__3cebc0a3-74c7-5802-b01f-67975e2a34eeout-47922b0d-8dc6-553a-8173-a87047981c95in",
+        "source": "3cebc0a3-74c7-5802-b01f-67975e2a34ee",
+        "sourceHandle": "out",
+        "target": "47922b0d-8dc6-553a-8173-a87047981c95",
+        "targetHandle": "in"
+      },
+      {
+        "animated": false,
+        "id": "xy-edge__47922b0d-8dc6-553a-8173-a87047981c95out-0bf1e00c-b5d4-52a2-93be-74731542e0f5in",
+        "source": "47922b0d-8dc6-553a-8173-a87047981c95",
+        "sourceHandle": "out",
+        "target": "0bf1e00c-b5d4-52a2-93be-74731542e0f5",
+        "targetHandle": "in"
+      },
+      {
+        "animated": false,
+        "id": "xy-edge__0bf1e00c-b5d4-52a2-93be-74731542e0f5out-1ddde839-23cd-561d-b264-f44dafb89254in",
+        "source": "0bf1e00c-b5d4-52a2-93be-74731542e0f5",
+        "sourceHandle": "out",
+        "target": "1ddde839-23cd-561d-b264-f44dafb89254",
+        "targetHandle": "in"
+      },
+      {
+        "animated": false,
+        "id": "xy-edge__7941f680-efa3-555f-b242-6e7806228763out-a458fa0a-b4a0-5230-9607-0e5b0a75678din",
+        "source": "7941f680-efa3-555f-b242-6e7806228763",
+        "sourceHandle": "out",
+        "target": "a458fa0a-b4a0-5230-9607-0e5b0a75678d",
+        "targetHandle": "in"
+      },
+      {
+        "animated": false,
+        "id": "xy-edge__a458fa0a-b4a0-5230-9607-0e5b0a75678dout-9729c514-d0b8-55d9-b40f-0e8ba598ad24in",
+        "source": "a458fa0a-b4a0-5230-9607-0e5b0a75678d",
+        "sourceHandle": "out",
+        "target": "9729c514-d0b8-55d9-b40f-0e8ba598ad24",
+        "targetHandle": "in"
+      },
+      {
+        "animated": false,
+        "id": "xy-edge__9729c514-d0b8-55d9-b40f-0e8ba598ad24out-724aff8c-128b-5aa0-b2ef-981da829a098in",
+        "source": "9729c514-d0b8-55d9-b40f-0e8ba598ad24",
+        "sourceHandle": "out",
+        "target": "724aff8c-128b-5aa0-b2ef-981da829a098",
+        "targetHandle": "in"
+      },
+      {
+        "animated": false,
+        "id": "xy-edge__3fb59235-495c-5700-84c3-d3485816b0f4out-ff5fb257-6af2-59f5-829f-c8c296f831dein",
+        "source": "3fb59235-495c-5700-84c3-d3485816b0f4",
+        "sourceHandle": "out",
+        "target": "ff5fb257-6af2-59f5-829f-c8c296f831de",
+        "targetHandle": "in"
+      },
+      {
+        "animated": false,
+        "id": "xy-edge__ff5fb257-6af2-59f5-829f-c8c296f831deout-57fd203f-e069-5dc9-abf5-7490cdfc8fc3in",
+        "source": "ff5fb257-6af2-59f5-829f-c8c296f831de",
+        "sourceHandle": "out",
+        "target": "57fd203f-e069-5dc9-abf5-7490cdfc8fc3",
+        "targetHandle": "in"
+      },
+      {
+        "animated": false,
+        "id": "xy-edge__ff5fb257-6af2-59f5-829f-c8c296f831deout-33d807ae-95ea-5c15-a1f7-021982cf5fc6in",
+        "source": "ff5fb257-6af2-59f5-829f-c8c296f831de",
+        "sourceHandle": "out",
+        "target": "33d807ae-95ea-5c15-a1f7-021982cf5fc6",
+        "targetHandle": "in"
+      },
+      {
+        "animated": false,
+        "id": "xy-edge__33d807ae-95ea-5c15-a1f7-021982cf5fc6out-66ed1aeb-cbfc-5d24-b8a2-20824f4bbfaein",
+        "source": "33d807ae-95ea-5c15-a1f7-021982cf5fc6",
+        "sourceHandle": "out",
+        "target": "66ed1aeb-cbfc-5d24-b8a2-20824f4bbfae",
+        "targetHandle": "in"
+      },
+      {
+        "animated": false,
+        "id": "xy-edge__08776895-25bd-5478-96f4-7160c758e5a3out-04ea4037-57e7-5259-bf90-a2956b10dd20in",
+        "source": "08776895-25bd-5478-96f4-7160c758e5a3",
+        "sourceHandle": "out",
+        "target": "04ea4037-57e7-5259-bf90-a2956b10dd20",
+        "targetHandle": "in"
+      },
+      {
+        "animated": false,
+        "id": "xy-edge__5f382598-6325-5378-88b5-7b8065719c84out-7abaaf3f-892e-5e1e-a05a-04a8d04ed61cin",
+        "source": "5f382598-6325-5378-88b5-7b8065719c84",
+        "sourceHandle": "out",
+        "target": "7abaaf3f-892e-5e1e-a05a-04a8d04ed61c",
+        "targetHandle": "in"
+      },
+      {
+        "animated": false,
+        "id": "xy-edge__5f382598-6325-5378-88b5-7b8065719c84out-cd7ce050-6702-5afd-9021-c8df76456485in",
+        "source": "5f382598-6325-5378-88b5-7b8065719c84",
+        "sourceHandle": "out",
+        "target": "cd7ce050-6702-5afd-9021-c8df76456485",
+        "targetHandle": "in"
+      },
+      {
+        "animated": false,
+        "id": "xy-edge__5f382598-6325-5378-88b5-7b8065719c84out-4cbc50ab-c8b0-5c2e-a48b-852bbe83b884in",
+        "source": "5f382598-6325-5378-88b5-7b8065719c84",
+        "sourceHandle": "out",
+        "target": "4cbc50ab-c8b0-5c2e-a48b-852bbe83b884",
+        "targetHandle": "in"
+      },
+      {
+        "animated": false,
+        "id": "xy-edge__86f55a60-5076-57dd-b19f-024ae5bb3835out-c1f840fb-bdd0-50ed-b8a6-31c3c711f1bamain",
+        "source": "86f55a60-5076-57dd-b19f-024ae5bb3835",
+        "sourceHandle": "out",
+        "target": "c1f840fb-bdd0-50ed-b8a6-31c3c711f1ba",
+        "targetHandle": "main"
+      },
+      {
+        "animated": false,
+        "id": "xy-edge__97a48beb-54f1-5862-8932-02a58496ccc6out-c1f840fb-bdd0-50ed-b8a6-31c3c711f1bareference",
+        "source": "97a48beb-54f1-5862-8932-02a58496ccc6",
+        "sourceHandle": "out",
+        "target": "c1f840fb-bdd0-50ed-b8a6-31c3c711f1ba",
+        "targetHandle": "reference"
+      },
+      {
+        "animated": false,
+        "id": "xy-edge__66ed1aeb-cbfc-5d24-b8a2-20824f4bbfaeout-14c31869-1fa8-5f50-84d0-4b14a35cfe7eleft",
+        "source": "66ed1aeb-cbfc-5d24-b8a2-20824f4bbfae",
+        "sourceHandle": "out",
+        "target": "14c31869-1fa8-5f50-84d0-4b14a35cfe7e",
+        "targetHandle": "left"
+      },
+      {
+        "animated": false,
+        "id": "xy-edge__1ddde839-23cd-561d-b264-f44dafb89254out-14c31869-1fa8-5f50-84d0-4b14a35cfe7eright",
+        "source": "1ddde839-23cd-561d-b264-f44dafb89254",
+        "sourceHandle": "out",
+        "target": "14c31869-1fa8-5f50-84d0-4b14a35cfe7e",
+        "targetHandle": "right"
+      },
+      {
+        "animated": false,
+        "id": "xy-edge__14c31869-1fa8-5f50-84d0-4b14a35cfe7eout-f26f2fec-fea4-56a0-b0aa-4c87987c6fcdleft",
+        "source": "14c31869-1fa8-5f50-84d0-4b14a35cfe7e",
+        "sourceHandle": "out",
+        "target": "f26f2fec-fea4-56a0-b0aa-4c87987c6fcd",
+        "targetHandle": "left"
+      },
+      {
+        "animated": false,
+        "id": "xy-edge__724aff8c-128b-5aa0-b2ef-981da829a098out-f26f2fec-fea4-56a0-b0aa-4c87987c6fcdright",
+        "source": "724aff8c-128b-5aa0-b2ef-981da829a098",
+        "sourceHandle": "out",
+        "target": "f26f2fec-fea4-56a0-b0aa-4c87987c6fcd",
+        "targetHandle": "right"
+      },
+      {
+        "animated": false,
+        "id": "xy-edge__f26f2fec-fea4-56a0-b0aa-4c87987c6fcdout-0588f559-223f-56af-90c0-0408bcbe7cbcmain",
+        "source": "f26f2fec-fea4-56a0-b0aa-4c87987c6fcd",
+        "sourceHandle": "out",
+        "target": "0588f559-223f-56af-90c0-0408bcbe7cbc",
+        "targetHandle": "main"
+      },
+      {
+        "animated": false,
+        "id": "xy-edge__c1f840fb-bdd0-50ed-b8a6-31c3c711f1baout-0588f559-223f-56af-90c0-0408bcbe7cbcreference",
+        "source": "c1f840fb-bdd0-50ed-b8a6-31c3c711f1ba",
+        "sourceHandle": "out",
+        "target": "0588f559-223f-56af-90c0-0408bcbe7cbc",
+        "targetHandle": "reference"
+      },
+      {
+        "animated": false,
+        "id": "xy-edge__0588f559-223f-56af-90c0-0408bcbe7cbcout-c0913ed1-9279-5404-aa7f-c260ab1124f0main",
+        "source": "0588f559-223f-56af-90c0-0408bcbe7cbc",
+        "sourceHandle": "out",
+        "target": "c0913ed1-9279-5404-aa7f-c260ab1124f0",
+        "targetHandle": "main"
+      },
+      {
+        "animated": false,
+        "id": "xy-edge__a18c7800-ba47-5348-8933-5893aa5920d6out-c0913ed1-9279-5404-aa7f-c260ab1124f0reference",
+        "source": "a18c7800-ba47-5348-8933-5893aa5920d6",
+        "sourceHandle": "out",
+        "target": "c0913ed1-9279-5404-aa7f-c260ab1124f0",
+        "targetHandle": "reference"
+      },
+      {
+        "animated": false,
+        "id": "xy-edge__c0913ed1-9279-5404-aa7f-c260ab1124f0out-6c38acc0-b351-55b3-aa77-a97af3cd19c6main",
+        "source": "c0913ed1-9279-5404-aa7f-c260ab1124f0",
+        "sourceHandle": "out",
+        "target": "6c38acc0-b351-55b3-aa77-a97af3cd19c6",
+        "targetHandle": "main"
+      },
+      {
+        "animated": false,
+        "id": "xy-edge__7296394a-3994-5cdf-a75d-6152a54c41d7out-6c38acc0-b351-55b3-aa77-a97af3cd19c6reference",
+        "source": "7296394a-3994-5cdf-a75d-6152a54c41d7",
+        "sourceHandle": "out",
+        "target": "6c38acc0-b351-55b3-aa77-a97af3cd19c6",
+        "targetHandle": "reference"
+      },
+      {
+        "animated": false,
+        "id": "xy-edge__6c38acc0-b351-55b3-aa77-a97af3cd19c6out-08776895-25bd-5478-96f4-7160c758e5a3in",
+        "source": "6c38acc0-b351-55b3-aa77-a97af3cd19c6",
+        "sourceHandle": "out",
+        "target": "08776895-25bd-5478-96f4-7160c758e5a3",
+        "targetHandle": "in"
+      },
+      {
+        "animated": false,
+        "id": "xy-edge__9729c514-d0b8-55d9-b40f-0e8ba598ad24out-b8aada0e-cc4b-50d0-952b-4c7ea4548b54left",
+        "source": "9729c514-d0b8-55d9-b40f-0e8ba598ad24",
+        "sourceHandle": "out",
+        "target": "b8aada0e-cc4b-50d0-952b-4c7ea4548b54",
+        "targetHandle": "left"
+      },
+      {
+        "animated": false,
+        "id": "xy-edge__1ddde839-23cd-561d-b264-f44dafb89254out-b8aada0e-cc4b-50d0-952b-4c7ea4548b54right",
+        "source": "1ddde839-23cd-561d-b264-f44dafb89254",
+        "sourceHandle": "out",
+        "target": "b8aada0e-cc4b-50d0-952b-4c7ea4548b54",
+        "targetHandle": "right"
+      },
+      {
+        "animated": false,
+        "id": "xy-edge__b8aada0e-cc4b-50d0-952b-4c7ea4548b54out-7ff3de7c-805c-56a6-b3d7-6faca00c6ffeleft",
+        "source": "b8aada0e-cc4b-50d0-952b-4c7ea4548b54",
+        "sourceHandle": "out",
+        "target": "7ff3de7c-805c-56a6-b3d7-6faca00c6ffe",
+        "targetHandle": "left"
+      },
+      {
+        "animated": false,
+        "id": "xy-edge__57fd203f-e069-5dc9-abf5-7490cdfc8fc3out-7ff3de7c-805c-56a6-b3d7-6faca00c6fferight",
+        "source": "57fd203f-e069-5dc9-abf5-7490cdfc8fc3",
+        "sourceHandle": "out",
+        "target": "7ff3de7c-805c-56a6-b3d7-6faca00c6ffe",
+        "targetHandle": "right"
+      },
+      {
+        "animated": false,
+        "id": "xy-edge__7ff3de7c-805c-56a6-b3d7-6faca00c6ffeout-02325144-9aa2-5949-b5d5-992d9181296emain",
+        "source": "7ff3de7c-805c-56a6-b3d7-6faca00c6ffe",
+        "sourceHandle": "out",
+        "target": "02325144-9aa2-5949-b5d5-992d9181296e",
+        "targetHandle": "main"
+      },
+      {
+        "animated": false,
+        "id": "xy-edge__c1f840fb-bdd0-50ed-b8a6-31c3c711f1baout-02325144-9aa2-5949-b5d5-992d9181296ereference",
+        "source": "c1f840fb-bdd0-50ed-b8a6-31c3c711f1ba",
+        "sourceHandle": "out",
+        "target": "02325144-9aa2-5949-b5d5-992d9181296e",
+        "targetHandle": "reference"
+      },
+      {
+        "animated": false,
+        "id": "xy-edge__02325144-9aa2-5949-b5d5-992d9181296eout-bf7e0a01-4d59-54ab-823b-2d36cfe0157amain",
+        "source": "02325144-9aa2-5949-b5d5-992d9181296e",
+        "sourceHandle": "out",
+        "target": "bf7e0a01-4d59-54ab-823b-2d36cfe0157a",
+        "targetHandle": "main"
+      },
+      {
+        "animated": false,
+        "id": "xy-edge__a18c7800-ba47-5348-8933-5893aa5920d6out-bf7e0a01-4d59-54ab-823b-2d36cfe0157areference",
+        "source": "a18c7800-ba47-5348-8933-5893aa5920d6",
+        "sourceHandle": "out",
+        "target": "bf7e0a01-4d59-54ab-823b-2d36cfe0157a",
+        "targetHandle": "reference"
+      },
+      {
+        "animated": false,
+        "id": "xy-edge__bf7e0a01-4d59-54ab-823b-2d36cfe0157aout-5f382598-6325-5378-88b5-7b8065719c84main",
+        "source": "bf7e0a01-4d59-54ab-823b-2d36cfe0157a",
+        "sourceHandle": "out",
+        "target": "5f382598-6325-5378-88b5-7b8065719c84",
+        "targetHandle": "main"
+      },
+      {
+        "animated": false,
+        "id": "xy-edge__7296394a-3994-5cdf-a75d-6152a54c41d7out-5f382598-6325-5378-88b5-7b8065719c84reference",
+        "source": "7296394a-3994-5cdf-a75d-6152a54c41d7",
+        "sourceHandle": "out",
+        "target": "5f382598-6325-5378-88b5-7b8065719c84",
+        "targetHandle": "reference"
+      },
+      {
+        "animated": false,
+        "id": "xy-edge__04ea4037-57e7-5259-bf90-a2956b10dd20out-6887dd5b-57ce-5b71-b5ad-a528256b424fin",
+        "source": "04ea4037-57e7-5259-bf90-a2956b10dd20",
+        "sourceHandle": "out",
+        "target": "6887dd5b-57ce-5b71-b5ad-a528256b424f",
+        "targetHandle": "in"
+      },
+      {
+        "animated": false,
+        "id": "xy-edge__6887dd5b-57ce-5b71-b5ad-a528256b424fout-5e11c86c-ce28-540c-b25b-da2731aa862fin",
+        "source": "6887dd5b-57ce-5b71-b5ad-a528256b424f",
+        "sourceHandle": "out",
+        "target": "5e11c86c-ce28-540c-b25b-da2731aa862f",
+        "targetHandle": "in"
+      },
+      {
+        "animated": false,
+        "id": "xy-edge__6887dd5b-57ce-5b71-b5ad-a528256b424fout-59207a1a-2b56-5c22-9538-49b7d29199b4in",
+        "source": "6887dd5b-57ce-5b71-b5ad-a528256b424f",
+        "sourceHandle": "out",
+        "target": "59207a1a-2b56-5c22-9538-49b7d29199b4",
+        "targetHandle": "in"
+      },
+      {
+        "animated": false,
+        "id": "xy-edge__59207a1a-2b56-5c22-9538-49b7d29199b4done-5fce0bf9-1597-5893-82a0-8ae9e2a878d6in",
+        "source": "59207a1a-2b56-5c22-9538-49b7d29199b4",
+        "sourceHandle": "done",
+        "target": "5fce0bf9-1597-5893-82a0-8ae9e2a878d6",
+        "targetHandle": "in"
+      }
+    ],
+    "nodes": [
+      {
+        "data": {
+          "activityId": "read-dataset",
+          "config": {
+            "add_record_timestamp": false,
+            "after_success": "none",
+            "archive_path": "",
+            "assign": "",
+            "attributes": "",
+            "bulk_threshold": 50000,
+            "catalog": "",
+            "catalog_database": "",
+            "catalog_table": "",
+            "checkpoint": "",
+            "classification": "json",
+            "collection": "",
+            "column_types": [],
+            "compression": "auto",
+            "content_hash": false,
+            "credentialRef": "e63d4f1a-4126-4e52-97c5-42e81f199ca0",
+            "database": "",
+            "delimiter": "",
+            "done_marker": "",
+            "ending_offsets": "",
+            "escape_char": "",
+            "exclusions": "",
+            "expected_columns": "",
+            "fields": "",
+            "file_pattern": "",
+            "filter_predicate": "",
+            "folder_path": "",
+            "format": "csv",
+            "group_id": "",
+            "has_header": true,
+            "headers": [],
+            "include_deleted": true,
+            "include_headers": false,
+            "include_metadata": false,
+            "include_source_metadata": false,
+            "incremental_mode": "new_files",
+            "index": "",
+            "initial_value": "",
+            "json_path": "",
+            "kind": "s3",
+            "limit": "",
+            "lookback_seconds": "",
+            "lower_bound": "",
+            "max_records": "",
+            "method": "GET",
+            "min_file_age_seconds": "",
+            "min_rows": "",
+            "null_values": "",
+            "num_partitions": "",
+            "object": "",
+            "on_bad_records": "fail",
+            "on_invalid_file": "fail",
+            "parameters": [],
+            "params": [],
+            "partition_column": "",
+            "partition_predicate": "",
+            "path": "",
+            "pipeline": "",
+            "prefix": "olist/raw/orders/olist_orders_dataset.csv",
+            "project": "",
+            "quarantine_path": "",
+            "query": "",
+            "query_dsl": "",
+            "quote_char": "quote",
+            "read_method": "scan",
+            "read_mode": "auto",
+            "records_path": "",
+            "recurse": true,
+            "remote_path": "",
+            "retry_attempts": "",
+            "retry_backoff": "",
+            "retry_delay_seconds": "",
+            "retry_max_delay_seconds": "",
+            "retry_on": "",
+            "run_when": "",
+            "schema": "",
+            "segments": "",
+            "separator": "comma",
+            "sheet": "",
+            "size_stable_seconds": "",
+            "skip_first": false,
+            "skip_footer": "",
+            "snapshot_id": "",
+            "starting_offsets": "",
+            "starting_position": "trim_horizon",
+            "starting_timestamp": "",
+            "stream_arn": "",
+            "stream_name": "",
+            "subscribe_pattern": "",
+            "sync_mode": "full",
+            "table": "",
+            "timeout_seconds": 30,
+            "topic": "",
+            "upper_bound": "",
+            "version": "",
+            "watermark_column": "",
+            "watermark_field": "SystemModstamp",
+            "watermark_type": "timestamp",
+            "where": "",
+            "workgroup": ""
+          },
+          "connectionId": "e63d4f1a-4126-4e52-97c5-42e81f199ca0",
+          "kind": "s3",
+          "label": "Orders",
+          "role": "source"
+        },
+        "id": "2e7eef68-de6b-5c1d-b9ee-d41f4424f995",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "type": "source"
+      },
+      {
+        "data": {
+          "activityId": "read-dataset",
+          "config": {
+            "add_record_timestamp": false,
+            "after_success": "none",
+            "archive_path": "",
+            "assign": "",
+            "attributes": "",
+            "bulk_threshold": 50000,
+            "catalog": "",
+            "catalog_database": "",
+            "catalog_table": "",
+            "checkpoint": "",
+            "classification": "json",
+            "collection": "",
+            "column_types": [],
+            "compression": "auto",
+            "content_hash": false,
+            "credentialRef": "e63d4f1a-4126-4e52-97c5-42e81f199ca0",
+            "database": "",
+            "delimiter": "",
+            "done_marker": "",
+            "ending_offsets": "",
+            "escape_char": "",
+            "exclusions": "",
+            "expected_columns": "",
+            "fields": "",
+            "file_pattern": "",
+            "filter_predicate": "",
+            "folder_path": "",
+            "format": "csv",
+            "group_id": "",
+            "has_header": true,
+            "headers": [],
+            "include_deleted": true,
+            "include_headers": false,
+            "include_metadata": false,
+            "include_source_metadata": false,
+            "incremental_mode": "new_files",
+            "index": "",
+            "initial_value": "",
+            "json_path": "",
+            "kind": "s3",
+            "limit": "",
+            "lookback_seconds": "",
+            "lower_bound": "",
+            "max_records": "",
+            "method": "GET",
+            "min_file_age_seconds": "",
+            "min_rows": "",
+            "null_values": "",
+            "num_partitions": "",
+            "object": "",
+            "on_bad_records": "fail",
+            "on_invalid_file": "fail",
+            "parameters": [],
+            "params": [],
+            "partition_column": "",
+            "partition_predicate": "",
+            "path": "",
+            "pipeline": "",
+            "prefix": "olist/raw/order_items/olist_order_items_dataset.csv",
+            "project": "",
+            "quarantine_path": "",
+            "query": "",
+            "query_dsl": "",
+            "quote_char": "quote",
+            "read_method": "scan",
+            "read_mode": "auto",
+            "records_path": "",
+            "recurse": true,
+            "remote_path": "",
+            "retry_attempts": "",
+            "retry_backoff": "",
+            "retry_delay_seconds": "",
+            "retry_max_delay_seconds": "",
+            "retry_on": "",
+            "run_when": "",
+            "schema": "",
+            "segments": "",
+            "separator": "comma",
+            "sheet": "",
+            "size_stable_seconds": "",
+            "skip_first": false,
+            "skip_footer": "",
+            "snapshot_id": "",
+            "starting_offsets": "",
+            "starting_position": "trim_horizon",
+            "starting_timestamp": "",
+            "stream_arn": "",
+            "stream_name": "",
+            "subscribe_pattern": "",
+            "sync_mode": "full",
+            "table": "",
+            "timeout_seconds": 30,
+            "topic": "",
+            "upper_bound": "",
+            "version": "",
+            "watermark_column": "",
+            "watermark_field": "SystemModstamp",
+            "watermark_type": "timestamp",
+            "where": "",
+            "workgroup": ""
+          },
+          "connectionId": "e63d4f1a-4126-4e52-97c5-42e81f199ca0",
+          "kind": "s3",
+          "label": "Order Items",
+          "role": "source"
+        },
+        "id": "7941f680-efa3-555f-b242-6e7806228763",
+        "position": {
+          "x": 0,
+          "y": 300
+        },
+        "type": "source"
+      },
+      {
+        "data": {
+          "activityId": "read-dataset",
+          "config": {
+            "add_record_timestamp": false,
+            "after_success": "none",
+            "archive_path": "",
+            "assign": "",
+            "attributes": "",
+            "bulk_threshold": 50000,
+            "catalog": "",
+            "catalog_database": "",
+            "catalog_table": "",
+            "checkpoint": "",
+            "classification": "json",
+            "collection": "",
+            "column_types": [],
+            "compression": "auto",
+            "content_hash": false,
+            "credentialRef": "e63d4f1a-4126-4e52-97c5-42e81f199ca0",
+            "database": "",
+            "delimiter": "",
+            "done_marker": "",
+            "ending_offsets": "",
+            "escape_char": "",
+            "exclusions": "",
+            "expected_columns": "",
+            "fields": "",
+            "file_pattern": "",
+            "filter_predicate": "",
+            "folder_path": "",
+            "format": "csv",
+            "group_id": "",
+            "has_header": true,
+            "headers": [],
+            "include_deleted": true,
+            "include_headers": false,
+            "include_metadata": false,
+            "include_source_metadata": false,
+            "incremental_mode": "new_files",
+            "index": "",
+            "initial_value": "",
+            "json_path": "",
+            "kind": "s3",
+            "limit": "",
+            "lookback_seconds": "",
+            "lower_bound": "",
+            "max_records": "",
+            "method": "GET",
+            "min_file_age_seconds": "",
+            "min_rows": "",
+            "null_values": "",
+            "num_partitions": "",
+            "object": "",
+            "on_bad_records": "fail",
+            "on_invalid_file": "fail",
+            "parameters": [],
+            "params": [],
+            "partition_column": "",
+            "partition_predicate": "",
+            "path": "",
+            "pipeline": "",
+            "prefix": "olist/raw/order_reviews/olist_order_reviews_dataset.csv",
+            "project": "",
+            "quarantine_path": "",
+            "query": "",
+            "query_dsl": "",
+            "quote_char": "quote",
+            "read_method": "scan",
+            "read_mode": "auto",
+            "records_path": "",
+            "recurse": true,
+            "remote_path": "",
+            "retry_attempts": "",
+            "retry_backoff": "",
+            "retry_delay_seconds": "",
+            "retry_max_delay_seconds": "",
+            "retry_on": "",
+            "run_when": "",
+            "schema": "",
+            "segments": "",
+            "separator": "comma",
+            "sheet": "",
+            "size_stable_seconds": "",
+            "skip_first": false,
+            "skip_footer": "",
+            "snapshot_id": "",
+            "starting_offsets": "",
+            "starting_position": "trim_horizon",
+            "starting_timestamp": "",
+            "stream_arn": "",
+            "stream_name": "",
+            "subscribe_pattern": "",
+            "sync_mode": "full",
+            "table": "",
+            "timeout_seconds": 30,
+            "topic": "",
+            "upper_bound": "",
+            "version": "",
+            "watermark_column": "",
+            "watermark_field": "SystemModstamp",
+            "watermark_type": "timestamp",
+            "where": "",
+            "workgroup": ""
+          },
+          "connectionId": "e63d4f1a-4126-4e52-97c5-42e81f199ca0",
+          "kind": "s3",
+          "label": "Reviews",
+          "role": "source"
+        },
+        "id": "3fb59235-495c-5700-84c3-d3485816b0f4",
+        "position": {
+          "x": 0,
+          "y": 600
+        },
+        "type": "source"
+      },
+      {
+        "data": {
+          "activityId": "read-dataset",
+          "config": {
+            "add_record_timestamp": false,
+            "after_success": "none",
+            "archive_path": "",
+            "assign": "",
+            "attributes": "",
+            "bulk_threshold": 50000,
+            "catalog": "",
+            "catalog_database": "",
+            "catalog_table": "",
+            "checkpoint": "",
+            "classification": "json",
+            "collection": "",
+            "column_types": [],
+            "compression": "auto",
+            "content_hash": false,
+            "credentialRef": "e63d4f1a-4126-4e52-97c5-42e81f199ca0",
+            "database": "",
+            "delimiter": "",
+            "done_marker": "",
+            "ending_offsets": "",
+            "escape_char": "",
+            "exclusions": "",
+            "expected_columns": "",
+            "fields": "",
+            "file_pattern": "",
+            "filter_predicate": "",
+            "folder_path": "",
+            "format": "csv",
+            "group_id": "",
+            "has_header": true,
+            "headers": [],
+            "include_deleted": true,
+            "include_headers": false,
+            "include_metadata": false,
+            "include_source_metadata": false,
+            "incremental_mode": "new_files",
+            "index": "",
+            "initial_value": "",
+            "json_path": "",
+            "kind": "s3",
+            "limit": "",
+            "lookback_seconds": "",
+            "lower_bound": "",
+            "max_records": "",
+            "method": "GET",
+            "min_file_age_seconds": "",
+            "min_rows": "",
+            "null_values": "",
+            "num_partitions": "",
+            "object": "",
+            "on_bad_records": "fail",
+            "on_invalid_file": "fail",
+            "parameters": [],
+            "params": [],
+            "partition_column": "",
+            "partition_predicate": "",
+            "path": "",
+            "pipeline": "",
+            "prefix": "olist/raw/products/olist_products_dataset.csv",
+            "project": "",
+            "quarantine_path": "",
+            "query": "",
+            "query_dsl": "",
+            "quote_char": "quote",
+            "read_method": "scan",
+            "read_mode": "auto",
+            "records_path": "",
+            "recurse": true,
+            "remote_path": "",
+            "retry_attempts": "",
+            "retry_backoff": "",
+            "retry_delay_seconds": "",
+            "retry_max_delay_seconds": "",
+            "retry_on": "",
+            "run_when": "",
+            "schema": "",
+            "segments": "",
+            "separator": "comma",
+            "sheet": "",
+            "size_stable_seconds": "",
+            "skip_first": false,
+            "skip_footer": "",
+            "snapshot_id": "",
+            "starting_offsets": "",
+            "starting_position": "trim_horizon",
+            "starting_timestamp": "",
+            "stream_arn": "",
+            "stream_name": "",
+            "subscribe_pattern": "",
+            "sync_mode": "full",
+            "table": "",
+            "timeout_seconds": 30,
+            "topic": "",
+            "upper_bound": "",
+            "version": "",
+            "watermark_column": "",
+            "watermark_field": "SystemModstamp",
+            "watermark_type": "timestamp",
+            "where": "",
+            "workgroup": ""
+          },
+          "connectionId": "e63d4f1a-4126-4e52-97c5-42e81f199ca0",
+          "kind": "s3",
+          "label": "Products",
+          "role": "source"
+        },
+        "id": "86f55a60-5076-57dd-b19f-024ae5bb3835",
+        "position": {
+          "x": 0,
+          "y": 900
+        },
+        "type": "source"
+      },
+      {
+        "data": {
+          "activityId": "read-dataset",
+          "config": {
+            "add_record_timestamp": false,
+            "after_success": "none",
+            "archive_path": "",
+            "assign": "",
+            "attributes": "",
+            "bulk_threshold": 50000,
+            "catalog": "",
+            "catalog_database": "",
+            "catalog_table": "",
+            "checkpoint": "",
+            "classification": "json",
+            "collection": "",
+            "column_types": [],
+            "compression": "auto",
+            "content_hash": false,
+            "credentialRef": "e63d4f1a-4126-4e52-97c5-42e81f199ca0",
+            "database": "",
+            "delimiter": "",
+            "done_marker": "",
+            "ending_offsets": "",
+            "escape_char": "",
+            "exclusions": "",
+            "expected_columns": "",
+            "fields": "",
+            "file_pattern": "",
+            "filter_predicate": "",
+            "folder_path": "",
+            "format": "csv",
+            "group_id": "",
+            "has_header": true,
+            "headers": [],
+            "include_deleted": true,
+            "include_headers": false,
+            "include_metadata": false,
+            "include_source_metadata": false,
+            "incremental_mode": "new_files",
+            "index": "",
+            "initial_value": "",
+            "json_path": "",
+            "kind": "s3",
+            "limit": "",
+            "lookback_seconds": "",
+            "lower_bound": "",
+            "max_records": "",
+            "method": "GET",
+            "min_file_age_seconds": "",
+            "min_rows": "",
+            "null_values": "",
+            "num_partitions": "",
+            "object": "",
+            "on_bad_records": "fail",
+            "on_invalid_file": "fail",
+            "parameters": [],
+            "params": [],
+            "partition_column": "",
+            "partition_predicate": "",
+            "path": "",
+            "pipeline": "",
+            "prefix": "olist/raw/category_translation/product_category_name_translation.csv",
+            "project": "",
+            "quarantine_path": "",
+            "query": "",
+            "query_dsl": "",
+            "quote_char": "quote",
+            "read_method": "scan",
+            "read_mode": "auto",
+            "records_path": "",
+            "recurse": true,
+            "remote_path": "",
+            "retry_attempts": "",
+            "retry_backoff": "",
+            "retry_delay_seconds": "",
+            "retry_max_delay_seconds": "",
+            "retry_on": "",
+            "run_when": "",
+            "schema": "",
+            "segments": "",
+            "separator": "comma",
+            "sheet": "",
+            "size_stable_seconds": "",
+            "skip_first": false,
+            "skip_footer": "",
+            "snapshot_id": "",
+            "starting_offsets": "",
+            "starting_position": "trim_horizon",
+            "starting_timestamp": "",
+            "stream_arn": "",
+            "stream_name": "",
+            "subscribe_pattern": "",
+            "sync_mode": "full",
+            "table": "",
+            "timeout_seconds": 30,
+            "topic": "",
+            "upper_bound": "",
+            "version": "",
+            "watermark_column": "",
+            "watermark_field": "SystemModstamp",
+            "watermark_type": "timestamp",
+            "where": "",
+            "workgroup": ""
+          },
+          "connectionId": "e63d4f1a-4126-4e52-97c5-42e81f199ca0",
+          "kind": "s3",
+          "label": "Category Translation",
+          "role": "source"
+        },
+        "id": "97a48beb-54f1-5862-8932-02a58496ccc6",
+        "position": {
+          "x": 0,
+          "y": 1050
+        },
+        "type": "source"
+      },
+      {
+        "data": {
+          "activityId": "read-dataset",
+          "config": {
+            "add_record_timestamp": false,
+            "after_success": "none",
+            "archive_path": "",
+            "assign": "",
+            "attributes": "",
+            "bulk_threshold": 50000,
+            "catalog": "",
+            "catalog_database": "",
+            "catalog_table": "",
+            "checkpoint": "",
+            "classification": "json",
+            "collection": "",
+            "column_types": [],
+            "compression": "auto",
+            "content_hash": false,
+            "credentialRef": "e63d4f1a-4126-4e52-97c5-42e81f199ca0",
+            "database": "",
+            "delimiter": "",
+            "done_marker": "",
+            "ending_offsets": "",
+            "escape_char": "",
+            "exclusions": "",
+            "expected_columns": "",
+            "fields": "",
+            "file_pattern": "",
+            "filter_predicate": "",
+            "folder_path": "",
+            "format": "csv",
+            "group_id": "",
+            "has_header": true,
+            "headers": [],
+            "include_deleted": true,
+            "include_headers": false,
+            "include_metadata": false,
+            "include_source_metadata": false,
+            "incremental_mode": "new_files",
+            "index": "",
+            "initial_value": "",
+            "json_path": "",
+            "kind": "s3",
+            "limit": "",
+            "lookback_seconds": "",
+            "lower_bound": "",
+            "max_records": "",
+            "method": "GET",
+            "min_file_age_seconds": "",
+            "min_rows": "",
+            "null_values": "",
+            "num_partitions": "",
+            "object": "",
+            "on_bad_records": "fail",
+            "on_invalid_file": "fail",
+            "parameters": [],
+            "params": [],
+            "partition_column": "",
+            "partition_predicate": "",
+            "path": "",
+            "pipeline": "",
+            "prefix": "olist/raw/sellers/olist_sellers_dataset.csv",
+            "project": "",
+            "quarantine_path": "",
+            "query": "",
+            "query_dsl": "",
+            "quote_char": "quote",
+            "read_method": "scan",
+            "read_mode": "auto",
+            "records_path": "",
+            "recurse": true,
+            "remote_path": "",
+            "retry_attempts": "",
+            "retry_backoff": "",
+            "retry_delay_seconds": "",
+            "retry_max_delay_seconds": "",
+            "retry_on": "",
+            "run_when": "",
+            "schema": "",
+            "segments": "",
+            "separator": "comma",
+            "sheet": "",
+            "size_stable_seconds": "",
+            "skip_first": false,
+            "skip_footer": "",
+            "snapshot_id": "",
+            "starting_offsets": "",
+            "starting_position": "trim_horizon",
+            "starting_timestamp": "",
+            "stream_arn": "",
+            "stream_name": "",
+            "subscribe_pattern": "",
+            "sync_mode": "full",
+            "table": "",
+            "timeout_seconds": 30,
+            "topic": "",
+            "upper_bound": "",
+            "version": "",
+            "watermark_column": "",
+            "watermark_field": "SystemModstamp",
+            "watermark_type": "timestamp",
+            "where": "",
+            "workgroup": ""
+          },
+          "connectionId": "e63d4f1a-4126-4e52-97c5-42e81f199ca0",
+          "kind": "s3",
+          "label": "Sellers",
+          "role": "source"
+        },
+        "id": "a18c7800-ba47-5348-8933-5893aa5920d6",
+        "position": {
+          "x": 0,
+          "y": 1200
+        },
+        "type": "source"
+      },
+      {
+        "data": {
+          "activityId": "read-dataset",
+          "config": {
+            "add_record_timestamp": false,
+            "after_success": "none",
+            "archive_path": "",
+            "assign": "",
+            "attributes": "",
+            "bulk_threshold": 50000,
+            "catalog": "",
+            "catalog_database": "",
+            "catalog_table": "",
+            "checkpoint": "",
+            "classification": "json",
+            "collection": "",
+            "column_types": [],
+            "compression": "auto",
+            "content_hash": false,
+            "credentialRef": "e63d4f1a-4126-4e52-97c5-42e81f199ca0",
+            "database": "",
+            "delimiter": "",
+            "done_marker": "",
+            "ending_offsets": "",
+            "escape_char": "",
+            "exclusions": "",
+            "expected_columns": "",
+            "fields": "",
+            "file_pattern": "",
+            "filter_predicate": "",
+            "folder_path": "",
+            "format": "csv",
+            "group_id": "",
+            "has_header": true,
+            "headers": [],
+            "include_deleted": true,
+            "include_headers": false,
+            "include_metadata": false,
+            "include_source_metadata": false,
+            "incremental_mode": "new_files",
+            "index": "",
+            "initial_value": "",
+            "json_path": "",
+            "kind": "s3",
+            "limit": "",
+            "lookback_seconds": "",
+            "lower_bound": "",
+            "max_records": "",
+            "method": "GET",
+            "min_file_age_seconds": "",
+            "min_rows": "",
+            "null_values": "",
+            "num_partitions": "",
+            "object": "",
+            "on_bad_records": "fail",
+            "on_invalid_file": "fail",
+            "parameters": [],
+            "params": [],
+            "partition_column": "",
+            "partition_predicate": "",
+            "path": "",
+            "pipeline": "",
+            "prefix": "olist/raw/customers/olist_customers_dataset.csv",
+            "project": "",
+            "quarantine_path": "",
+            "query": "",
+            "query_dsl": "",
+            "quote_char": "quote",
+            "read_method": "scan",
+            "read_mode": "auto",
+            "records_path": "",
+            "recurse": true,
+            "remote_path": "",
+            "retry_attempts": "",
+            "retry_backoff": "",
+            "retry_delay_seconds": "",
+            "retry_max_delay_seconds": "",
+            "retry_on": "",
+            "run_when": "",
+            "schema": "",
+            "segments": "",
+            "separator": "comma",
+            "sheet": "",
+            "size_stable_seconds": "",
+            "skip_first": false,
+            "skip_footer": "",
+            "snapshot_id": "",
+            "starting_offsets": "",
+            "starting_position": "trim_horizon",
+            "starting_timestamp": "",
+            "stream_arn": "",
+            "stream_name": "",
+            "subscribe_pattern": "",
+            "sync_mode": "full",
+            "table": "",
+            "timeout_seconds": 30,
+            "topic": "",
+            "upper_bound": "",
+            "version": "",
+            "watermark_column": "",
+            "watermark_field": "SystemModstamp",
+            "watermark_type": "timestamp",
+            "where": "",
+            "workgroup": ""
+          },
+          "connectionId": "e63d4f1a-4126-4e52-97c5-42e81f199ca0",
+          "kind": "s3",
+          "label": "Customers",
+          "role": "source"
+        },
+        "id": "7296394a-3994-5cdf-a75d-6152a54c41d7",
+        "position": {
+          "x": 0,
+          "y": 1350
+        },
+        "type": "source"
+      },
+      {
+        "data": {
+          "activityId": "filter",
+          "config": {
+            "condition": "order_status = 'delivered' AND order_delivered_customer_date IS NOT NULL"
+          },
+          "connectionId": null,
+          "kind": "filter",
+          "label": "Delivered orders",
+          "role": "transform"
+        },
+        "id": "3cebc0a3-74c7-5802-b01f-67975e2a34ee",
+        "position": {
+          "x": 320,
+          "y": 0
+        },
+        "type": "transform"
+      },
+      {
+        "data": {
+          "activityId": "change-schema",
+          "config": {
+            "mappings": [
+              {
+                "drop": false,
+                "source": "order_purchase_timestamp",
+                "target": "order_purchase_timestamp",
+                "to_type": "timestamp"
+              },
+              {
+                "drop": false,
+                "source": "order_delivered_customer_date",
+                "target": "order_delivered_customer_date",
+                "to_type": "timestamp"
+              },
+              {
+                "drop": false,
+                "source": "order_estimated_delivery_date",
+                "target": "order_estimated_delivery_date",
+                "to_type": "timestamp"
+              }
+            ],
+            "on_invalid": "null",
+            "unmapped": "keep"
+          },
+          "connectionId": null,
+          "kind": "change_schema",
+          "label": "Order dates",
+          "role": "transform"
+        },
+        "id": "47922b0d-8dc6-553a-8173-a87047981c95",
+        "position": {
+          "x": 640,
+          "y": 0
+        },
+        "type": "transform"
+      },
+      {
+        "data": {
+          "activityId": "format-timestamp",
+          "config": {
+            "column": "order_purchase_timestamp",
+            "format": "%Y-%m",
+            "output_column": "purchase_month"
+          },
+          "connectionId": null,
+          "kind": "format_timestamp",
+          "label": "Purchase month",
+          "role": "transform"
+        },
+        "id": "0bf1e00c-b5d4-52a2-93be-74731542e0f5",
+        "position": {
+          "x": 960,
+          "y": 0
+        },
+        "type": "transform"
+      },
+      {
+        "data": {
+          "activityId": "derived-column",
+          "config": {
+            "columns": [
+              {
+                "expression": "CASE WHEN order_delivered_customer_date > order_estimated_delivery_date THEN 1 ELSE 0 END",
+                "name": "is_late"
+              },
+              {
+                "expression": "CASE WHEN order_delivered_customer_date > order_estimated_delivery_date THEN 'late' ELSE 'on time' END",
+                "name": "delivery_status"
+              }
+            ],
+            "replace_existing": false
+          },
+          "connectionId": null,
+          "kind": "derived_column",
+          "label": "Late flag",
+          "role": "transform"
+        },
+        "id": "1ddde839-23cd-561d-b264-f44dafb89254",
+        "position": {
+          "x": 1280,
+          "y": 0
+        },
+        "type": "transform"
+      },
+      {
+        "data": {
+          "activityId": "change-schema",
+          "config": {
+            "mappings": [
+              {
+                "drop": false,
+                "source": "price",
+                "target": "price",
+                "to_type": "float"
+              },
+              {
+                "drop": false,
+                "source": "freight_value",
+                "target": "freight_value",
+                "to_type": "float"
+              }
+            ],
+            "on_invalid": "null",
+            "unmapped": "keep"
+          },
+          "connectionId": null,
+          "kind": "change_schema",
+          "label": "Item amounts",
+          "role": "transform"
+        },
+        "id": "a458fa0a-b4a0-5230-9607-0e5b0a75678d",
+        "position": {
+          "x": 320,
+          "y": 300
+        },
+        "type": "transform"
+      },
+      {
+        "data": {
+          "activityId": "derived-column",
+          "config": {
+            "columns": [
+              {
+                "expression": "price + freight_value",
+                "name": "item_revenue"
+              }
+            ],
+            "replace_existing": false
+          },
+          "connectionId": null,
+          "kind": "derived_column",
+          "label": "Item revenue",
+          "role": "transform"
+        },
+        "id": "9729c514-d0b8-55d9-b40f-0e8ba598ad24",
+        "position": {
+          "x": 640,
+          "y": 300
+        },
+        "type": "transform"
+      },
+      {
+        "data": {
+          "activityId": "distinct",
+          "config": {
+            "ignore_case": false,
+            "keep": "first",
+            "subset": [
+              "order_id"
+            ]
+          },
+          "connectionId": null,
+          "kind": "dedupe",
+          "label": "First item per order",
+          "role": "transform"
+        },
+        "id": "724aff8c-128b-5aa0-b2ef-981da829a098",
+        "position": {
+          "x": 960,
+          "y": 450
+        },
+        "type": "transform"
+      },
+      {
+        "data": {
+          "activityId": "distinct",
+          "config": {
+            "descending": true,
+            "ignore_case": false,
+            "keep": "first",
+            "order_by": [
+              "review_answer_timestamp"
+            ],
+            "subset": [
+              "order_id"
+            ]
+          },
+          "connectionId": null,
+          "kind": "dedupe",
+          "label": "One review per order",
+          "role": "transform"
+        },
+        "id": "ff5fb257-6af2-59f5-829f-c8c296f831de",
+        "position": {
+          "x": 320,
+          "y": 600
+        },
+        "type": "transform"
+      },
+      {
+        "data": {
+          "activityId": "change-schema",
+          "config": {
+            "mappings": [
+              {
+                "drop": false,
+                "source": "order_id",
+                "target": "order_id",
+                "to_type": "string"
+              },
+              {
+                "drop": false,
+                "source": "review_score",
+                "target": "review_score",
+                "to_type": "integer"
+              }
+            ],
+            "on_invalid": "null",
+            "unmapped": "drop"
+          },
+          "connectionId": null,
+          "kind": "change_schema",
+          "label": "Review score",
+          "role": "transform"
+        },
+        "id": "57fd203f-e069-5dc9-abf5-7490cdfc8fc3",
+        "position": {
+          "x": 640,
+          "y": 600
+        },
+        "type": "transform"
+      },
+      {
+        "data": {
+          "activityId": "filter",
+          "config": {
+            "condition": "review_comment_message IS NOT NULL"
+          },
+          "connectionId": null,
+          "kind": "filter",
+          "label": "Reviews with a comment",
+          "role": "transform"
+        },
+        "id": "33d807ae-95ea-5c15-a1f7-021982cf5fc6",
+        "position": {
+          "x": 640,
+          "y": 750
+        },
+        "type": "transform"
+      },
+      {
+        "data": {
+          "activityId": "change-schema",
+          "config": {
+            "mappings": [
+              {
+                "drop": false,
+                "source": "order_id",
+                "target": "order_id",
+                "to_type": "string"
+              },
+              {
+                "drop": false,
+                "source": "review_score",
+                "target": "review_score",
+                "to_type": "integer"
+              },
+              {
+                "drop": false,
+                "source": "review_comment_title",
+                "target": "review_comment_title",
+                "to_type": "string"
+              },
+              {
+                "drop": false,
+                "source": "review_comment_message",
+                "target": "review_comment_message",
+                "to_type": "string"
+              }
+            ],
+            "on_invalid": "null",
+            "unmapped": "drop"
+          },
+          "connectionId": null,
+          "kind": "change_schema",
+          "label": "Review fields",
+          "role": "transform"
+        },
+        "id": "66ed1aeb-cbfc-5d24-b8a2-20824f4bbfae",
+        "position": {
+          "x": 960,
+          "y": 750
+        },
+        "type": "transform"
+      },
+      {
+        "data": {
+          "activityId": "lookup",
+          "config": {
+            "add_match_flag": "",
+            "default_values": [
+              {
+                "column": "product_category_name_english",
+                "value": "Unknown"
+              }
+            ],
+            "keys": [
+              {
+                "main": "product_category_name",
+                "reference": "product_category_name"
+              }
+            ],
+            "match": "first",
+            "not_found": "default",
+            "prefix": "",
+            "return_columns": [
+              "product_category_name_english"
+            ]
+          },
+          "connectionId": null,
+          "kind": "lookup_enrich",
+          "label": "English category",
+          "role": "transform"
+        },
+        "id": "c1f840fb-bdd0-50ed-b8a6-31c3c711f1ba",
+        "position": {
+          "x": 320,
+          "y": 900
+        },
+        "type": "transform"
+      },
+      {
+        "data": {
+          "activityId": "join",
+          "config": {
+            "join_type": "inner",
+            "left_on": [
+              "order_id"
+            ],
+            "right_on": [
+              "order_id"
+            ],
+            "suffix": "_right"
+          },
+          "connectionId": null,
+          "kind": "join",
+          "label": "Reviews + orders",
+          "role": "transform"
+        },
+        "id": "14c31869-1fa8-5f50-84d0-4b14a35cfe7e",
+        "position": {
+          "x": 1600,
+          "y": 750
+        },
+        "type": "transform"
+      },
+      {
+        "data": {
+          "activityId": "join",
+          "config": {
+            "join_type": "left",
+            "left_on": [
+              "order_id"
+            ],
+            "right_on": [
+              "order_id"
+            ],
+            "suffix": "_item"
+          },
+          "connectionId": null,
+          "kind": "join",
+          "label": "Add first item",
+          "role": "transform"
+        },
+        "id": "f26f2fec-fea4-56a0-b0aa-4c87987c6fcd",
+        "position": {
+          "x": 1920,
+          "y": 750
+        },
+        "type": "transform"
+      },
+      {
+        "data": {
+          "activityId": "lookup",
+          "config": {
+            "add_match_flag": "",
+            "default_values": [
+              {
+                "column": "product_category_name_english",
+                "value": "Unknown"
+              }
+            ],
+            "keys": [
+              {
+                "main": "product_id",
+                "reference": "product_id"
+              }
+            ],
+            "match": "first",
+            "not_found": "default",
+            "prefix": "",
+            "return_columns": [
+              "product_category_name_english"
+            ]
+          },
+          "connectionId": null,
+          "kind": "lookup_enrich",
+          "label": "Review category",
+          "role": "transform"
+        },
+        "id": "0588f559-223f-56af-90c0-0408bcbe7cbc",
+        "position": {
+          "x": 2240,
+          "y": 750
+        },
+        "type": "transform"
+      },
+      {
+        "data": {
+          "activityId": "lookup",
+          "config": {
+            "add_match_flag": "",
+            "keys": [
+              {
+                "main": "seller_id",
+                "reference": "seller_id"
+              }
+            ],
+            "match": "first",
+            "not_found": "keep_null",
+            "prefix": "",
+            "return_columns": [
+              "seller_state"
+            ]
+          },
+          "connectionId": null,
+          "kind": "lookup_enrich",
+          "label": "Review seller state",
+          "role": "transform"
+        },
+        "id": "c0913ed1-9279-5404-aa7f-c260ab1124f0",
+        "position": {
+          "x": 2560,
+          "y": 750
+        },
+        "type": "transform"
+      },
+      {
+        "data": {
+          "activityId": "lookup",
+          "config": {
+            "add_match_flag": "",
+            "keys": [
+              {
+                "main": "customer_id",
+                "reference": "customer_id"
+              }
+            ],
+            "match": "first",
+            "not_found": "keep_null",
+            "prefix": "",
+            "return_columns": [
+              "customer_state"
+            ]
+          },
+          "connectionId": null,
+          "kind": "lookup_enrich",
+          "label": "Review customer state",
+          "role": "transform"
+        },
+        "id": "6c38acc0-b351-55b3-aa77-a97af3cd19c6",
+        "position": {
+          "x": 2880,
+          "y": 750
+        },
+        "type": "transform"
+      },
+      {
+        "data": {
+          "activityId": "select",
+          "config": {
+            "columns": [
+              "order_id",
+              "purchase_month",
+              "product_category_name_english",
+              "seller_id",
+              "seller_state",
+              "customer_state",
+              "delivery_status",
+              "review_score",
+              "review_comment_title",
+              "review_comment_message"
+            ],
+            "ignore_missing": false
+          },
+          "connectionId": null,
+          "kind": "select",
+          "label": "Review columns",
+          "role": "transform"
+        },
+        "id": "08776895-25bd-5478-96f4-7160c758e5a3",
+        "position": {
+          "x": 3200,
+          "y": 750
+        },
+        "type": "transform"
+      },
+      {
+        "data": {
+          "activityId": "rename",
+          "config": {
+            "mappings": [
+              {
+                "from": "product_category_name_english",
+                "to": "product_category"
+              },
+              {
+                "from": "review_comment_title",
+                "to": "review_title"
+              },
+              {
+                "from": "review_comment_message",
+                "to": "review_comment"
+              }
+            ]
+          },
+          "connectionId": null,
+          "kind": "rename",
+          "label": "Readable names",
+          "role": "transform"
+        },
+        "id": "04ea4037-57e7-5259-bf90-a2956b10dd20",
+        "position": {
+          "x": 3520,
+          "y": 750
+        },
+        "type": "transform"
+      },
+      {
+        "data": {
+          "activityId": "write-output",
+          "config": {
+            "clustering_fields": "",
+            "collection": "",
+            "compression": "",
+            "credentialRef": "e63d4f1a-4126-4e52-97c5-42e81f199ca0",
+            "database": "",
+            "delete_flag_column": "",
+            "file_count": "",
+            "file_name": "",
+            "folder_path": "",
+            "format": "csv",
+            "glue_database": "",
+            "glue_table": "",
+            "has_header": true,
+            "id_column": "",
+            "index": "",
+            "key_columns": [],
+            "kind": "s3",
+            "load_mode": "full_refresh",
+            "partition_by": [
+              "delivery_status",
+              "customer_state"
+            ],
+            "partition_field": "",
+            "prefix": "olist/knowledge/customer_reviews_by_state",
+            "project": "",
+            "retry_attempts": "",
+            "retry_backoff": "",
+            "retry_delay_seconds": "",
+            "retry_max_delay_seconds": "",
+            "retry_on": "",
+            "run_when": "",
+            "schema": "",
+            "schema_change": "keep_catalog",
+            "table": "",
+            "upsert_operation": "replace"
+          },
+          "connectionId": "e63d4f1a-4126-4e52-97c5-42e81f199ca0",
+          "kind": "s3",
+          "label": "Write customer reviews by state",
+          "role": "destination"
+        },
+        "id": "5e11c86c-ce28-540c-b25b-da2731aa862f",
+        "position": {
+          "x": 3840,
+          "y": 750
+        },
+        "type": "destination"
+      },
+      {
+        "data": {
+          "activityId": "index-documents",
+          "config": {
+            "batch_size": 1,
+            "max_file_mb": 25,
+            "request_timeout_seconds": 600,
+            "source_path": ""
+          },
+          "connectionId": null,
+          "kind": "knowledge_index",
+          "label": "Index customer reviews by state for Ask Numen",
+          "role": "destination"
+        },
+        "id": "096bfce9-111f-5b16-8ef8-061d2e66c51f",
+        "position": {
+          "x": 4160,
+          "y": 750
+        },
+        "type": "destination"
+      },
+      {
+        "data": {
+          "activityId": "join",
+          "config": {
+            "join_type": "inner",
+            "left_on": [
+              "order_id"
+            ],
+            "right_on": [
+              "order_id"
+            ],
+            "suffix": "_right"
+          },
+          "connectionId": null,
+          "kind": "join",
+          "label": "Items + delivered orders",
+          "role": "transform"
+        },
+        "id": "b8aada0e-cc4b-50d0-952b-4c7ea4548b54",
+        "position": {
+          "x": 1600,
+          "y": 150
+        },
+        "type": "transform"
+      },
+      {
+        "data": {
+          "activityId": "join",
+          "config": {
+            "join_type": "left",
+            "left_on": [
+              "order_id"
+            ],
+            "right_on": [
+              "order_id"
+            ],
+            "suffix": "_right"
+          },
+          "connectionId": null,
+          "kind": "join",
+          "label": "Add review score",
+          "role": "transform"
+        },
+        "id": "7ff3de7c-805c-56a6-b3d7-6faca00c6ffe",
+        "position": {
+          "x": 1920,
+          "y": 150
+        },
+        "type": "transform"
+      },
+      {
+        "data": {
+          "activityId": "lookup",
+          "config": {
+            "add_match_flag": "",
+            "default_values": [
+              {
+                "column": "product_category_name_english",
+                "value": "Unknown"
+              }
+            ],
+            "keys": [
+              {
+                "main": "product_id",
+                "reference": "product_id"
+              }
+            ],
+            "match": "first",
+            "not_found": "default",
+            "prefix": "",
+            "return_columns": [
+              "product_category_name_english"
+            ]
+          },
+          "connectionId": null,
+          "kind": "lookup_enrich",
+          "label": "Category",
+          "role": "transform"
+        },
+        "id": "02325144-9aa2-5949-b5d5-992d9181296e",
+        "position": {
+          "x": 2240,
+          "y": 150
+        },
+        "type": "transform"
+      },
+      {
+        "data": {
+          "activityId": "lookup",
+          "config": {
+            "add_match_flag": "",
+            "keys": [
+              {
+                "main": "seller_id",
+                "reference": "seller_id"
+              }
+            ],
+            "match": "first",
+            "not_found": "keep_null",
+            "prefix": "",
+            "return_columns": [
+              "seller_state"
+            ]
+          },
+          "connectionId": null,
+          "kind": "lookup_enrich",
+          "label": "Seller state",
+          "role": "transform"
+        },
+        "id": "bf7e0a01-4d59-54ab-823b-2d36cfe0157a",
+        "position": {
+          "x": 2560,
+          "y": 150
+        },
+        "type": "transform"
+      },
+      {
+        "data": {
+          "activityId": "lookup",
+          "config": {
+            "add_match_flag": "",
+            "keys": [
+              {
+                "main": "customer_id",
+                "reference": "customer_id"
+              }
+            ],
+            "match": "first",
+            "not_found": "keep_null",
+            "prefix": "",
+            "return_columns": [
+              "customer_state"
+            ]
+          },
+          "connectionId": null,
+          "kind": "lookup_enrich",
+          "label": "Customer state",
+          "role": "transform"
+        },
+        "id": "5f382598-6325-5378-88b5-7b8065719c84",
+        "position": {
+          "x": 2880,
+          "y": 150
+        },
+        "type": "transform"
+      },
+      {
+        "data": {
+          "activityId": "aggregate",
+          "config": {
+            "aggregations": [
+              {
+                "alias": "orders",
+                "column": "order_id",
+                "function": "count_distinct"
+              },
+              {
+                "alias": "revenue",
+                "column": "item_revenue",
+                "function": "sum"
+              },
+              {
+                "alias": "late_rate",
+                "column": "is_late",
+                "function": "avg"
+              },
+              {
+                "alias": "avg_review_score",
+                "column": "review_score",
+                "function": "avg"
+              }
+            ],
+            "group_by": [
+              "product_category_name_english"
+            ]
+          },
+          "connectionId": null,
+          "kind": "aggregate",
+          "label": "Category summary",
+          "role": "transform"
+        },
+        "id": "7abaaf3f-892e-5e1e-a05a-04a8d04ed61c",
+        "position": {
+          "x": 3200,
+          "y": 0
+        },
+        "type": "transform"
+      },
+      {
+        "data": {
+          "activityId": "derived-column",
+          "config": {
+            "columns": [
+              {
+                "expression": "ROUND(revenue, 0)",
+                "name": "revenue"
+              },
+              {
+                "expression": "ROUND(late_rate * 100, 1)",
+                "name": "late_delivery_pct"
+              },
+              {
+                "expression": "ROUND(avg_review_score, 2)",
+                "name": "avg_review_score"
+              }
+            ],
+            "replace_existing": true
+          },
+          "connectionId": null,
+          "kind": "derived_column",
+          "label": "Category summary: round",
+          "role": "transform"
+        },
+        "id": "936cf7ef-94fb-500a-9120-679de6a98b1c",
+        "position": {
+          "x": 3520,
+          "y": 0
+        },
+        "type": "transform"
+      },
+      {
+        "data": {
+          "activityId": "select",
+          "config": {
+            "columns": [
+              "product_category_name_english",
+              "orders",
+              "revenue",
+              "late_delivery_pct",
+              "avg_review_score"
+            ],
+            "ignore_missing": false
+          },
+          "connectionId": null,
+          "kind": "select",
+          "label": "Category summary: columns",
+          "role": "transform"
+        },
+        "id": "7ca225a8-6b97-5e09-9fcd-77e0f48d916f",
+        "position": {
+          "x": 3840,
+          "y": 0
+        },
+        "type": "transform"
+      },
+      {
+        "data": {
+          "activityId": "write-output",
+          "config": {
+            "clustering_fields": "",
+            "collection": "",
+            "compression": "",
+            "credentialRef": "e63d4f1a-4126-4e52-97c5-42e81f199ca0",
+            "database": "",
+            "delete_flag_column": "",
+            "file_count": "",
+            "file_name": "",
+            "folder_path": "",
+            "format": "csv",
+            "glue_database": "",
+            "glue_table": "",
+            "has_header": true,
+            "id_column": "",
+            "index": "",
+            "key_columns": [],
+            "kind": "s3",
+            "load_mode": "full_refresh",
+            "partition_by": "",
+            "partition_field": "",
+            "prefix": "olist/knowledge/category_summary",
+            "project": "",
+            "retry_attempts": "",
+            "retry_backoff": "",
+            "retry_delay_seconds": "",
+            "retry_max_delay_seconds": "",
+            "retry_on": "",
+            "run_when": "",
+            "schema": "",
+            "schema_change": "keep_catalog",
+            "table": "",
+            "upsert_operation": "replace"
+          },
+          "connectionId": "e63d4f1a-4126-4e52-97c5-42e81f199ca0",
+          "kind": "s3",
+          "label": "Write category summary",
+          "role": "destination"
+        },
+        "id": "ae7999d8-28b7-533e-9f0f-77c5b96d1391",
+        "position": {
+          "x": 4160,
+          "y": 0
+        },
+        "type": "destination"
+      },
+      {
+        "data": {
+          "activityId": "index-documents",
+          "config": {
+            "batch_size": 20,
+            "max_file_mb": 25,
+            "source_path": ""
+          },
+          "connectionId": null,
+          "kind": "knowledge_index",
+          "label": "Index category summary for Ask Numen",
+          "role": "destination"
+        },
+        "id": "6ee24864-ad9c-55a1-a78d-5ae68081bcc1",
+        "position": {
+          "x": 4480,
+          "y": 0
+        },
+        "type": "destination"
+      },
+      {
+        "data": {
+          "activityId": "aggregate",
+          "config": {
+            "aggregations": [
+              {
+                "alias": "orders",
+                "column": "order_id",
+                "function": "count_distinct"
+              },
+              {
+                "alias": "revenue",
+                "column": "item_revenue",
+                "function": "sum"
+              },
+              {
+                "alias": "late_rate",
+                "column": "is_late",
+                "function": "avg"
+              },
+              {
+                "alias": "avg_review_score",
+                "column": "review_score",
+                "function": "avg"
+              }
+            ],
+            "group_by": [
+              "seller_id",
+              "seller_state"
+            ]
+          },
+          "connectionId": null,
+          "kind": "aggregate",
+          "label": "Seller scorecard",
+          "role": "transform"
+        },
+        "id": "cd7ce050-6702-5afd-9021-c8df76456485",
+        "position": {
+          "x": 3200,
+          "y": 150
+        },
+        "type": "transform"
+      },
+      {
+        "data": {
+          "activityId": "derived-column",
+          "config": {
+            "columns": [
+              {
+                "expression": "ROUND(revenue, 0)",
+                "name": "revenue"
+              },
+              {
+                "expression": "ROUND(late_rate * 100, 1)",
+                "name": "late_delivery_pct"
+              },
+              {
+                "expression": "ROUND(avg_review_score, 2)",
+                "name": "avg_review_score"
+              }
+            ],
+            "replace_existing": true
+          },
+          "connectionId": null,
+          "kind": "derived_column",
+          "label": "Seller scorecard: round",
+          "role": "transform"
+        },
+        "id": "1688aa99-cac5-517c-bbf2-871a1e3b814b",
+        "position": {
+          "x": 3520,
+          "y": 150
+        },
+        "type": "transform"
+      },
+      {
+        "data": {
+          "activityId": "select",
+          "config": {
+            "columns": [
+              "seller_id",
+              "seller_state",
+              "orders",
+              "revenue",
+              "late_delivery_pct",
+              "avg_review_score"
+            ],
+            "ignore_missing": false
+          },
+          "connectionId": null,
+          "kind": "select",
+          "label": "Seller scorecard: columns",
+          "role": "transform"
+        },
+        "id": "a194ede8-81fa-51e1-8350-8beeec3f6c9b",
+        "position": {
+          "x": 3840,
+          "y": 150
+        },
+        "type": "transform"
+      },
+      {
+        "data": {
+          "activityId": "write-output",
+          "config": {
+            "clustering_fields": "",
+            "collection": "",
+            "compression": "",
+            "credentialRef": "e63d4f1a-4126-4e52-97c5-42e81f199ca0",
+            "database": "",
+            "delete_flag_column": "",
+            "file_count": "",
+            "file_name": "",
+            "folder_path": "",
+            "format": "csv",
+            "glue_database": "",
+            "glue_table": "",
+            "has_header": true,
+            "id_column": "",
+            "index": "",
+            "key_columns": [],
+            "kind": "s3",
+            "load_mode": "full_refresh",
+            "partition_by": "",
+            "partition_field": "",
+            "prefix": "olist/knowledge/seller_scorecard",
+            "project": "",
+            "retry_attempts": "",
+            "retry_backoff": "",
+            "retry_delay_seconds": "",
+            "retry_max_delay_seconds": "",
+            "retry_on": "",
+            "run_when": "",
+            "schema": "",
+            "schema_change": "keep_catalog",
+            "table": "",
+            "upsert_operation": "replace"
+          },
+          "connectionId": "e63d4f1a-4126-4e52-97c5-42e81f199ca0",
+          "kind": "s3",
+          "label": "Write seller scorecard",
+          "role": "destination"
+        },
+        "id": "b855cb43-bfc9-51ab-9e45-a56081dd5df9",
+        "position": {
+          "x": 4160,
+          "y": 150
+        },
+        "type": "destination"
+      },
+      {
+        "data": {
+          "activityId": "index-documents",
+          "config": {
+            "batch_size": 20,
+            "max_file_mb": 25,
+            "source_path": ""
+          },
+          "connectionId": null,
+          "kind": "knowledge_index",
+          "label": "Index seller scorecard for Ask Numen",
+          "role": "destination"
+        },
+        "id": "a169806c-58bf-53ba-831d-1b5236700d74",
+        "position": {
+          "x": 4480,
+          "y": 150
+        },
+        "type": "destination"
+      },
+      {
+        "data": {
+          "activityId": "aggregate",
+          "config": {
+            "aggregations": [
+              {
+                "alias": "orders",
+                "column": "order_id",
+                "function": "count_distinct"
+              },
+              {
+                "alias": "revenue",
+                "column": "item_revenue",
+                "function": "sum"
+              },
+              {
+                "alias": "late_rate",
+                "column": "is_late",
+                "function": "avg"
+              },
+              {
+                "alias": "avg_review_score",
+                "column": "review_score",
+                "function": "avg"
+              }
+            ],
+            "group_by": [
+              "customer_state"
+            ]
+          },
+          "connectionId": null,
+          "kind": "aggregate",
+          "label": "State summary",
+          "role": "transform"
+        },
+        "id": "4cbc50ab-c8b0-5c2e-a48b-852bbe83b884",
+        "position": {
+          "x": 3200,
+          "y": 300
+        },
+        "type": "transform"
+      },
+      {
+        "data": {
+          "activityId": "derived-column",
+          "config": {
+            "columns": [
+              {
+                "expression": "ROUND(revenue, 0)",
+                "name": "revenue"
+              },
+              {
+                "expression": "ROUND(late_rate * 100, 1)",
+                "name": "late_delivery_pct"
+              },
+              {
+                "expression": "ROUND(avg_review_score, 2)",
+                "name": "avg_review_score"
+              }
+            ],
+            "replace_existing": true
+          },
+          "connectionId": null,
+          "kind": "derived_column",
+          "label": "State summary: round",
+          "role": "transform"
+        },
+        "id": "5a51a90e-af0e-5ab6-b0ba-83252f3d3a42",
+        "position": {
+          "x": 3520,
+          "y": 300
+        },
+        "type": "transform"
+      },
+      {
+        "data": {
+          "activityId": "select",
+          "config": {
+            "columns": [
+              "customer_state",
+              "orders",
+              "revenue",
+              "late_delivery_pct",
+              "avg_review_score"
+            ],
+            "ignore_missing": false
+          },
+          "connectionId": null,
+          "kind": "select",
+          "label": "State summary: columns",
+          "role": "transform"
+        },
+        "id": "9a85af0c-8a21-53a5-b9dc-8c3a91e15f28",
+        "position": {
+          "x": 3840,
+          "y": 300
+        },
+        "type": "transform"
+      },
+      {
+        "data": {
+          "activityId": "write-output",
+          "config": {
+            "clustering_fields": "",
+            "collection": "",
+            "compression": "",
+            "credentialRef": "e63d4f1a-4126-4e52-97c5-42e81f199ca0",
+            "database": "",
+            "delete_flag_column": "",
+            "file_count": "",
+            "file_name": "",
+            "folder_path": "",
+            "format": "csv",
+            "glue_database": "",
+            "glue_table": "",
+            "has_header": true,
+            "id_column": "",
+            "index": "",
+            "key_columns": [],
+            "kind": "s3",
+            "load_mode": "full_refresh",
+            "partition_by": "",
+            "partition_field": "",
+            "prefix": "olist/knowledge/state_summary",
+            "project": "",
+            "retry_attempts": "",
+            "retry_backoff": "",
+            "retry_delay_seconds": "",
+            "retry_max_delay_seconds": "",
+            "retry_on": "",
+            "run_when": "",
+            "schema": "",
+            "schema_change": "keep_catalog",
+            "table": "",
+            "upsert_operation": "replace"
+          },
+          "connectionId": "e63d4f1a-4126-4e52-97c5-42e81f199ca0",
+          "kind": "s3",
+          "label": "Write state summary",
+          "role": "destination"
+        },
+        "id": "42f4595a-fe41-515e-8c10-ed0beabb41a1",
+        "position": {
+          "x": 4160,
+          "y": 300
+        },
+        "type": "destination"
+      },
+      {
+        "data": {
+          "activityId": "index-documents",
+          "config": {
+            "batch_size": 20,
+            "max_file_mb": 25,
+            "source_path": ""
+          },
+          "connectionId": null,
+          "kind": "knowledge_index",
+          "label": "Index state summary for Ask Numen",
+          "role": "destination"
+        },
+        "id": "af7037fd-f2ac-5574-a8d0-5078d5488130",
+        "position": {
+          "x": 4480,
+          "y": 300
+        },
+        "type": "destination"
+      },
+      {
+        "data": {
+          "activityId": "derived-column",
+          "config": {
+            "columns": [
+              {
+                "expression": "CASE WHEN review_score >= 4 THEN 'positive' WHEN review_score <= 2 THEN 'negative' ELSE 'neutral' END",
+                "name": "sentiment"
+              }
+            ],
+            "replace_existing": false
+          },
+          "connectionId": null,
+          "kind": "derived_column",
+          "label": "Sentiment",
+          "role": "transform"
+        },
+        "id": "6887dd5b-57ce-5b71-b5ad-a528256b424f",
+        "position": {
+          "x": 3680,
+          "y": 920
+        },
+        "type": "transform"
+      },
+      {
+        "data": {
+          "activityId": "write-output",
+          "config": {
+            "clustering_fields": "",
+            "collection": "",
+            "compression": "",
+            "credentialRef": "e63d4f1a-4126-4e52-97c5-42e81f199ca0",
+            "database": "",
+            "delete_flag_column": "",
+            "file_count": "",
+            "file_name": "",
+            "folder_path": "",
+            "format": "csv",
+            "glue_database": "",
+            "glue_table": "",
+            "has_header": true,
+            "id_column": "",
+            "index": "",
+            "key_columns": [],
+            "kind": "s3",
+            "load_mode": "full_refresh",
+            "partition_by": [
+              "product_category",
+              "sentiment"
+            ],
+            "partition_field": "",
+            "prefix": "olist/knowledge/customer_reviews_by_category",
+            "project": "",
+            "retry_attempts": "",
+            "retry_backoff": "",
+            "retry_delay_seconds": "",
+            "retry_max_delay_seconds": "",
+            "retry_on": "",
+            "run_when": "",
+            "schema": "",
+            "schema_change": "keep_catalog",
+            "table": "",
+            "upsert_operation": "replace"
+          },
+          "connectionId": "e63d4f1a-4126-4e52-97c5-42e81f199ca0",
+          "kind": "s3",
+          "label": "Write customer reviews by category",
+          "role": "destination"
+        },
+        "id": "59207a1a-2b56-5c22-9538-49b7d29199b4",
+        "position": {
+          "x": 3840,
+          "y": 1090
+        },
+        "type": "destination"
+      },
+      {
+        "data": {
+          "activityId": "index-documents",
+          "config": {
+            "batch_size": 1,
+            "max_file_mb": 25,
+            "request_timeout_seconds": 600,
+            "source_path": ""
+          },
+          "connectionId": null,
+          "kind": "knowledge_index",
+          "label": "Index customer reviews by category for Ask Numen",
+          "role": "destination"
+        },
+        "id": "5fce0bf9-1597-5893-82a0-8ae9e2a878d6",
+        "position": {
+          "x": 4160,
+          "y": 1090
+        },
+        "type": "destination"
+      }
+    ],
+    "version": 1
+  },
+  "pipeline": {
+    "description": "Demo for Ask Numen: builds question-ready CSVs from the Olist data (customer reviews with comments, and summaries per category, seller and customer state) and indexes each one, so Ask Numen can answer questions about them with citations.",
+    "id": "50e91c2a-53b0-4c24-aff7-140c19d66954",
+    "name": "Olist - Ask Numen Knowledge Base",
+    "options": {}
+  },
+  "schedules": []
+}
